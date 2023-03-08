@@ -12,6 +12,7 @@
     margin: 1.5rem;
     background-color: #FFFFFF;
     border: none;
+    border-radius: 0.625rem;
     transition: border 0.2s;
 }
 .card p {
