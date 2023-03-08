@@ -3,6 +3,7 @@
     overflow: hidden;
     margin-bottom: 1rem;
     background: #000000;
+    border-radius: 0.625rem;
 }
 .slider iframe {  
     width: 100%;
@@ -14,9 +15,11 @@
     flex-direction: row;
     justify-content: space-between;
     background: #000000;
+    border-radius: 0.625rem;
 }
 .contentButton div {
     margin: 1rem;
+    border-radius: 0.625rem;
 }
 .contentButton span {
     color: #FFFFFF;
@@ -33,6 +36,7 @@
     color:#FFFFFF;
     text-decoration: none;
     text-align: center;
+    border-radius: 0.625rem;
 }
 @media(max-width: 450px){
     .contentButton span {
