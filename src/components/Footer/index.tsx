@@ -1,4 +1,5 @@
 ﻿import { MenuSocialMediaFooter } from '../MenuSocialMediaFooter';
+import { ImLocation2, ImPhone } from "react-icons/im";
 import styles from './styles.module.css';
 
 export function Footer(){
@@ -8,28 +9,26 @@ export function Footer(){
             <div className={styles.footerContent}>
                 <div className={styles.item}>
                     <div>
+                        <ImLocation2 className={styles.icon} />
                         <span>
-                            <a
-                                href='https://www.firjan.com.br/termo-de-privacidade.htm'
-                                aria-label='acesse nossos termos'
-                            >
-                                Termos de Privacidade
-                            </a>
+                            ACSE 1 Rua de Pedestre SE 03
+                            lote-34
                         </span>
-                        <p>Atendimento para empresas</p>
-                        <p>Atendimento à comunidade</p>                        
+                        <p>Edifício Armando Monteiro Neto Plano Diretor Sul</p>
+                        <p>Cep: 77020-016</p>                        
                     </div>
                 </div>
                 <div className={styles.item}>
                     <div>
-                        <span>(21) 4042-6565</span>
+                        <ImPhone className={styles.icon} />
+                        <span>(63) 3229-5770</span>
                         <p>Horário de Atendimento:</p>
-                        <p>Seg à Sex/ das 9hrs às 18hrs</p>
+                        <p>Seg à Sex/ das 8hrs às 18hrs</p>
                     </div>
                 </div>
             </div>
             <div className={styles.footerCopyright}>
-                <small>Copyright 2023 © Todos os direitos reservados à FIRJAN.</small>
+                <small>Copyright 2023 © Todos os direitos reservados ao SENAI TO.</small>
             </div>
         </footer>
     )
