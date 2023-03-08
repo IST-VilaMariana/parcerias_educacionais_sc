@@ -11,11 +11,10 @@ export function Footer(){
                     <div>
                         <ImLocation2 className={styles.icon} />
                         <span>
-                            ACSE 1 Rua de Pedestre SE 03
-                            lote-34
+                            Edifício Armando Monteiro Neto Plano Diretor Sul
                         </span>
-                        <p>Edifício Armando Monteiro Neto Plano Diretor Sul</p>
-                        <p>Cep: 77020-016</p>                        
+                        <p>ACSE 1 Rua de Pedestre SE 03 lote-34</p>
+                        <p>Palmas - TO Cep: 77020-016</p>                        
                     </div>
                 </div>
                 <div className={styles.item}>

@@ -30,6 +30,7 @@
     background-color: #DBD7D7;
     padding: 1rem;
     margin: 1rem;
+    border-radius: 0.625rem;
 }
 .item span {
     width: 20rem;
