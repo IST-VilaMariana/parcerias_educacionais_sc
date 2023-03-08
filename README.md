@@ -1,4 +1,4 @@
-## Interface Senai + Parceiros RJ
+## Interface Senai + Parceiros TO
 
 É importante resaltar que a aplicação foi desenvolvida para ser executada em um servidor NodeJS, para mais detalhes acesse a documentação: 
 [Node](https://nodejs.org/pt-br/docs/)
