@@ -6,29 +6,29 @@ import styles from './styles.module.css';
 
 const linkVideo = [
     {
-        src : 'https://www.youtube.com/embed/hgjfQJroR8k',
-        title : '+Parceiros – Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Firjan'
+        src : 'https://www.youtube.com/embed/iVBgjdKMLEc',
+        title : '+Parceiros – Senai TO – Depoimento de quem já faz parte da nossa rede | SENAI TO',
+        company: 'Brasil +Produtivo'
     },
     {
-        src : 'https://www.youtube.com/embed/Fu7FQCcXNpY',
-        title: '+Parceiros – Casa Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Casa Firjan' 
+        src : 'https://www.youtube.com/embed/MCQDsudM4ZE',
+        title: '+Parceiros – Senai TO – Depoimento de quem já faz parte da nossa rede | SENAI TO',
+        company: 'Bolos do Cerrado' 
     },
     {
-        src: 'https://www.youtube.com/embed/Xxkk6tyHhxE',
-        title: '+Parceiros – Construção – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Campanha'
+        src: 'https://www.youtube.com/embed/eMc0WLPOc28',
+        title: '+Parceiros – Senai TO – Depoimento de quem já faz parte da nossa rede | SENAI TO',
+        company: 'Laticínio'
     },
     {
-        src: 'https://www.youtube.com/embed/MO00N2FE2LM',
-        title: '+Parceiros – eSocial – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'eSocial'
+        src: 'https://www.youtube.com/embed/DNNbdKlTS3M',
+        title: '+Parceiros – Senai TO – Depoimento de quem já faz parte da nossa rede | SENAI TO',
+        company: 'Santa Clara'
     },
     {
-        src: 'https://www.youtube.com/embed/2w1ZvAsZpOo',
-        title: '+Parceiros – Rede Oléo e Gás – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Rede De Oléo e gás'
+        src: 'https://www.youtube.com/embed/nJA95fVkiGA',
+        title: '+Parceiros – Senai TO – Depoimento de quem já faz parte da nossa rede | SENAI TO',
+        company: 'Sistema FIETO'
     }
 ];
 
