@@ -19,12 +19,12 @@ export function CardListEmpresas(){
         <div className={styles.card}>
             <div className={styles.subModalRadix}>
                 <ModalRadixUI
-                    title={'Mecânica e Metalurgica'}
+                    title={'Mecânica'}
                     src={mechanic}
                     area={1}
                 />
                 <ModalRadixUI
-                    title={'Têxtil e Vestuário'}
+                    title={'Vestuário'}
                     src={clouset}
                     area={2}
                 />
@@ -46,7 +46,7 @@ export function CardListEmpresas(){
                     area={5}
                 />
                 <ModalRadixUI
-                    title={'Logística e Transporte'}
+                    title={'Logística'}
                     src={logistica}
                     area={6}
                 />
