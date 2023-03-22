@@ -6,12 +6,6 @@ export function Navigation(){
             <a 
                 href="#depoimentos"
                 aria-label='Ouça os depoimentos de quem já faz parte'
-            >
-                DEPOIMENTOS DE QUEM JÁ FAZ PARTE
-            </a>
-            <a 
-                href="#editais"
-                aria-label='acesse nossos editais'
                 style={
                     {
                         'backgroundColor': '#FFF',
@@ -22,11 +16,26 @@ export function Navigation(){
                     }
                 }
             >
+                DEPOIMENTOS DE QUEM JÁ FAZ PARTE
+            </a>
+            <a 
+                href="#editais"
+                aria-label='acesse nossos editais'
+            >
                 ACESSE O EDITAL PARA PARCEIRAS
             </a>
             <a 
                 href="#seja_parceiro"
                 aria-label='Preencha nosso formulário'
+                style={
+                    {
+                        'backgroundColor': '#FFF',
+                        'color': 'var(--blue)',
+                        'border': '0.15rem solid var(--blue)',
+                        'transition': 'var(--gray-300) 0.2s'
+                        
+                    }
+                }
             >
                 SAIBA COMO SE TORNAR UM PARCEIRO
             </a>

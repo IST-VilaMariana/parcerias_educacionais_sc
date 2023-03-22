@@ -27,7 +27,7 @@
     width: 20rem;
     height: 90%;
     pointer-events: none;
-    background-color: #DBD7D7;
+    background: var(--gray-200);
     padding: 1rem;
     margin: 1rem;
     border-radius: 0.625rem;
