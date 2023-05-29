@@ -1,83 +1,69 @@
 ﻿{    
-    "mecanica_metalurgica": [
+    "mecanica_metalurgica" : [
         { 
             "id": 1,
-            "area": "Mecânica e Metalurgica",    
-            "empresa":  "Torneadora do Edson",
-            "escola_responsavel": "Senai TO"
-        }, 
-        {
-            "id": 2,
-            "area": "Mecânica e Metalurgica",    
-            "empresa":  "TorneaTins",
-            "escola_responsavel": "Senai TO"
-        }
-    ],
-    "textil_vestuario" : [
-        { 
-            "id": 3,
-            "area": "Têxtil e Vestuário",    
-            "empresa":  "Central Bordados",
-            "escola_responsavel": "Senai TO"
+            "area": "Mecância e Metalurgica",    
+            "empresa":  "Cimep (Grupo Brasilata)",
+            "escola_responsavel": "Firjan"
         },
         { 
-            "id": 4,
-            "area": "Têxtil e Vestuário",    
-            "empresa":  "Confecções Cunha",
-            "escola_responsavel": "Senai TO"
+            "id":2,
+            "area": "Mecância e Metalurgica",    
+            "empresa":  "Ternium Brasil LTDA",
+            "escola_responsavel": "Firjan"
         }
     ],
     "alimentos": [
         {
-            "id": 5,
+            "id": 3,
             "area": "Alimentos e Bebidas",
-            "empresa": "Bolos do Cerrado",
-            "escola_responsavel": "Senai TO"
+            "empresa": "Moinhos Cruzeiro Do Sul S.A.",
+            "escola_responsavel": "Firjan"
+        },
+        {
+            "id": 4,
+            "area": "Alimentos e Bebidas",
+            "empresa": "Coperativa Agrária",
+            "escola_responsavel": "Firjan"
+        }
+    ],
+    "plasticos" : [
+        {
+            "id": 5,
+            "area": "Plásticos",
+            "empresa": "Companhia de Canetas Compactor",
+            "escola_responsavel": "Firjan"
         },
         {
             "id": 6,
-            "area": "Alimentos e Bebidas",
-            "empresa": "MasterBoi",
-            "escola_responsavel": "Senai TO"
-        }
-    ],
-    "quimica" : [
-        {
-            "id": 7,
-            "area": "Química",
-            "empresa": "Bravo Química",
-            "escola_responsavel": "Senai TO"
-        },
-        {
-            "id": 8,
-            "area": "Química",
-            "empresa": "PREMIX",
-            "escola_responsavel": "Senai TO"
+            "area": "Plásticos",
+            "empresa": "Fabricadora de Poliuretano Rio Sul LTDA",
+            "escola_responsavel": "Firjan"
         }
     ],
     "tecnologia_informacao" : [
         {
-            "id": 9,
+            "id": 7,
             "area": "Tecnologia da Informação",
-            "empresa": "NorteSYS",
-            "escola_responsavel": "Senai TO"
+            "empresa": "Orange Business Services Brasil LTDA",
+            "escola_responsavel": "Firjan"
+        },
+        {
+            "id": 8,
+            "area": "Tecnologia da Informação",
+            "empresa": "Orange Business Services Brasil LTDA",
+            "escola_responsavel": "Firjan"
+        }
+    ],
+    "refrigeracao" : [
+        {
+            "id": 9,
+            "area": "Refrigeração e Climatização",
+            "empresa": "Green",
+            "escola_responsavel": "Firjan"
         },
         {
             "id": 10,
-            "area": "Tecnologia da Informação",
-            "empresa": "RenSoftware",
-            "escola_responsavel": "Senai TO"
-        }
-    ],
-    "logistica_transporte" : [
-        {
-            "id": 11,
-            "area": "Logística e Transporte",
-            "empresa": "TransKothe",
-            "escola_responsavel": "Senai TO"
-        },
-        {
-            "id": 12,
             "area": "Refrigeração e Climatização",
             "empresa": "Eletrolux",
             "escola_responsavel": "Firjan"
@@ -85,58 +71,64 @@
     ],
     "construcao_civil" : [
         {
+            "id": 11,
+            "area": "Construção Civil",
+            "empresa": "Gypsum Mineração Industria e Comércio LTDA",
+            "escola_responsavel": "Firjan"
+        },
+        {
+            "id": 12,
+            "area": "Construção Civil",
+            "empresa": "Cidade das Tintas",
+            "escola_responsavel": "Firjan"
+        },
+        {
             "id": 13,
             "area": "Construção Civil",
-            "empresa": "DIV Construtora",
-            "escola_responsavel": "Senai TO"
-        },
-        {
-            "id": 14,
-            "area": "Construção Civil",
-            "empresa": "CVC Construtora",
-            "escola_responsavel": "Senai TO"
-        },
-        {
-            "id": 15,
-            "area": "Construção Civil",
-            "empresa": "Construtora Jota Luz",
-            "escola_responsavel": "Senai TO"
+            "empresa": "Município de Tanguá",
+            "escola_responsavel": "Firjan"
         }
     ],
     "energia" : [
         {
-            "id": 16,
+            "id": 14,
             "area": "Energia e Eletricidade",
-            "empresa": "Taesa",
-            "escola_responsavel": "Senai TO"
+            "empresa":"Macomevap",
+            "escola_responsavel":"Firjan"
+        },
+        {
+            "id": 15,
+            "area": "Energia e Eletricidade",
+            "empresa":"Minipa",
+            "escola_responsavel":"Firjan"
         }
     ],
     "gestao" : [
         {
-            "id": 18,
+            "id": 16,
             "area": "Gestão",
-            "empresa":"Rio Mafra Shopping",
-            "escola_responsavel":"Senai TO"
+            "empresa":"Município São Pedro da Aldeia",
+            "escola_responsavel":"Firjan"
         },
         {
-            "id": 19,
+            "id": 17,
             "area": "Gestão",
-            "empresa":"Consórcio Estreito",
-            "escola_responsavel":"Senai TO"
+            "empresa":"ERFLEX software LTDA",
+            "escola_responsavel":"Firjan"
         }
     ],
     "automotiva": [
         {
-            "id": 20,
+            "id": 18,
             "area": "Automotiva",
-            "empresa":"Retenrol",
-            "escola_responsavel":"Senai TO"
+            "empresa":"Stellantis",
+            "escola_responsavel":"Firjan"
         },
         {
-            "id": 21,
+            "id": 19,
             "area": "Automotiva",
-            "empresa":"Revemar Motocenter",
-            "escola_responsavel":"Senai TO"
+            "empresa":"FCA FIAT Chrysler Automóveis Brasil LTDA",
+            "escola_responsavel":"Firjan"
         }
     ]
 }
