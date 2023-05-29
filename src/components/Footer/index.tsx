@@ -9,25 +9,28 @@ export function Footer(){
             <div className={styles.footerContent}>
                 <div className={styles.item}>
                     <div>
-                        <ImLocation2 className={styles.icon} />
                         <span>
-                            Edifício Armando Monteiro Neto Plano Diretor Sul
+                            <a 
+                                href="https://www.firjan.com.br/termo-de-privacidade.html"
+                                aria-label='acesse nossos termos'
+                            >
+                                Termos de Privacidade
+                            </a>
                         </span>
-                        <p>ACSE 1 Rua de Pedestre SE 03 lote-34</p>
-                        <p>Palmas - TO Cep: 77020-016</p>                        
+                        <p>Atendimento para empresas</p>
+                        <p>Atendimento à comunidade</p>                        
                     </div>
                 </div>
                 <div className={styles.item}>
                     <div>
-                        <ImPhone className={styles.icon} />
-                        <span>(63) 3229-5770</span>
+                        <span>(21) 4042-6565</span>
                         <p>Horário de Atendimento:</p>
-                        <p>Seg à Sex/ das 8hrs às 18hrs</p>
+                        <p>Seg à Sex/ das 9hrs às 18hrs</p>
                     </div>
                 </div>
             </div>
             <div className={styles.footerCopyright}>
-                <small>Copyright 2023 © Todos os direitos reservados ao SENAI TO.</small>
+                <small>Copyright 2023 © Todos os direitos reservados à FIRJAN.</small>
             </div>
         </footer>
     )
