@@ -40,7 +40,7 @@ html {
 
 @media (max-width: 450px){
   html {
-    font: 350 1rem 'Montserrat';
+    font: 350 1rem 'Roboto';
   }
   .headerContent{
     display: none;
@@ -53,7 +53,7 @@ body {
 }
 
 body, input, textarea, select, button, p , ul, li {
-  font: 400 1rem 'Montserrat', sans-serif;
+  font: 400 1rem 'Roboto', sans-serif;
 }
 
 button {
