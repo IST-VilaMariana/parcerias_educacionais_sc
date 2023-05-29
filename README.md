@@ -1,6 +1,6 @@
-## Interface Senai + Parceiros TO
+## Interface Senai + Parceiros RJ
 
-Inteface do programa Mais Paceiros Tocantins
+Inteface do programa Mais Paceiros Rio de Janeiro
 
 ## Pré-requisitos
 
@@ -15,7 +15,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/IST-VilaMariana/mais_parceiros_to.git
+git clone https://github.com/IST-VilaMariana/mais_parceiros_rj.git
 
 ```
 2. Instale as dependências do projeto:
@@ -91,7 +91,7 @@ const questionsAnswers = [
         }
     ]
 ```
-Cabe resaltar que o id deve obdecer a sequência das aréas já declaradas.
+***Atenção:*** Cabe resaltar que o id deve obdecer a sequência das aréas já declaradas.
 
 2. Faça o download do icone do botão para a pasta /public/images/icons_parceiros
 
@@ -159,7 +159,7 @@ onde
 ```bash
     {
         src : 'url_do_video',
-        title : '+Parceiros – Senai-TO – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
+        title : '+Parceiros – Senai-RJ – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
         company: 'Nome da Empresa'
     }
 ```
@@ -177,5 +177,4 @@ Para os vídeos que são provindos do Youtube não esquecer do "/embed/" para qu
 ```jsx
     <ButtonDownload endereco_url={"url_do_arquivo"}/>
 ```
-
 
