@@ -6,7 +6,7 @@ import { Header } from '../src/components/Header';
 import { axeAccessibilityReporter } from '../src/utils/axeAccessibilityReporter';
 import '../styles/globals.css';
 
-const averta = localFont({
+export const averta = localFont({
   src: [
     {
       path: '../public/averta/averta-regular.otf',

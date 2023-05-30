@@ -4,6 +4,7 @@ import { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { ContentModal } from "../ContentModal";
 import style from "./styles.module.css";
+import { averta } from "../../../pages/_app";
 
 type ModalProps = {
     title : string;

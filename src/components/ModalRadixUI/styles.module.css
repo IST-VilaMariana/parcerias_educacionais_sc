@@ -46,11 +46,11 @@
     padding: 2rem;
     width: 1200px;
     height: 100px;
-    background: var(--gray-300);
+    background: var(--gray-200);
 }
 .headermodal span {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
 }
 .iconClose {
