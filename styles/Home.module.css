@@ -9,9 +9,6 @@
 }
 .sectionContainer h1 {
     color: var(--blue);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 2.2rem;
     line-height: 2.688rem;
     padding-bottom: 10px;
