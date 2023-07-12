@@ -30,7 +30,7 @@ export function Footer(){
                 </div>
             </div>
             <div className={styles.footerCopyright}>
-                <small>Copyright 2023 © Todos os direitos reservados à FIRJAN.</small>
+                <small>Copyright 2023 © Todos os direitos reservados à FIRJAN SENAI.</small>
             </div>
         </footer>
     )

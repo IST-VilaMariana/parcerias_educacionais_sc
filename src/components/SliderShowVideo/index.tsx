@@ -7,27 +7,27 @@ import styles from './styles.module.css';
 const linkVideo = [
     {
         src : 'https://www.youtube.com/embed/hgjfQJroR8k',
-        title : '+Parceiros – Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Firjan'
+        title : '+Parceiros – Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
+        company: 'Firjan Senai'
     },
     {
         src : 'https://www.youtube.com/embed/Fu7FQCcXNpY',
-        title: '+Parceiros – Casa Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN',
-        company: 'Casa Firjan' 
+        title: '+Parceiros – Casa Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
+        company: 'Casa Firjan Senai' 
     },
     {
         src: 'https://www.youtube.com/embed/Xxkk6tyHhxE',
-        title: '+Parceiros – Construção – Depoimento de quem já faz parte da nossa rede | FIRJAN',
+        title: '+Parceiros – Construção – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'Campanha'
     },
     {
         src: 'https://www.youtube.com/embed/MO00N2FE2LM',
-        title: '+Parceiros – eSocial – Depoimento de quem já faz parte da nossa rede | FIRJAN',
+        title: '+Parceiros – eSocial – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'eSocial'
     },
     {
         src: 'https://www.youtube.com/embed/2w1ZvAsZpOo',
-        title: '+Parceiros – Rede Oléo e Gás – Depoimento de quem já faz parte da nossa rede | FIRJAN',
+        title: '+Parceiros – Rede Oléo e Gás – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'Rede De Oléo e gás'
     }
 ];

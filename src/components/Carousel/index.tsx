@@ -27,11 +27,11 @@ const questionsAnswers = [
   },
   {
     question: 'Difusão Tecnológica',
-    answer: 'Os esforços conjuntos com a FIRJAN e de seus parceiros, visam a mordenização de processos, mediante ao uso de produtos e serviços difundidos no mercado.'
+    answer: 'Os esforços conjuntos com a FIRJAN SENAI e de seus parceiros, visam a mordenização de processos, mediante ao uso de produtos e serviços difundidos no mercado.'
   },
   {
-    question: 'Capilaridade da Rede FIRJAN',
-    answer: 'Uma parceria consolidada com uma Unidade Operacional da FIRJAN posibilita sua disseminação pela rede no estado, trazendo mais vantagens para as empresas parceiras.'
+    question: 'Capilaridade da Rede FIRJAN SENAI',
+    answer: 'Uma parceria consolidada com uma Unidade Operacional da FIRJAN SENAI posibilita sua disseminação pela rede no estado, trazendo mais vantagens para as empresas parceiras.'
   }    
 ];
 
@@ -52,7 +52,6 @@ export function Carousel(){
   function prevSlide(){
     let width = boxSlider.clientWidth;
     boxSlider.scrollLeft = boxSlider.scrollLeft - width;
-    console.log(width);
   }
   
   useEffect(() => {
