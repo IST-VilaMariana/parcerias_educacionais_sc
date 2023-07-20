@@ -6,8 +6,8 @@ Inteface do programa Mais Paceiros Rio de Janeiro
 
 Certifique-se de ter o seguinte instalado em sua máquina:
 
--[Git](https://git-scm.com/)
--[Node](https://nodejs.org/en)
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en)
 
 
 ## Instalação
@@ -31,7 +31,7 @@ yarn
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
