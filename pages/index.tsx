@@ -13,7 +13,7 @@ export default function Home() {
   
   return (
     <>
-      <Head><title>Senai + Parceiros</title></Head>
+      <Head><title>Firjan Senai + Parceiros</title></Head>
         <main>
           <section id="home" className={styles.sectionContainer}>
             <br />
