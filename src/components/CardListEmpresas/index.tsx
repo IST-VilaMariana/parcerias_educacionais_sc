@@ -7,6 +7,10 @@ import climatizacao from "../../../public/images/icons_parceiros/icon-park-outli
 import construction from "../../../public/images/icons_parceiros/construction-svgrepo-com.svg";
 import energy from "../../../public/images/icons_parceiros/energy-svgrepo-com.svg";
 import gestor from "../../../public/images/icons_parceiros/fluent-mdl2_workforce-management.svg";
+import vestuario from "../../../public/images/icons_parceiros/map_clothing-store.svg";
+import automacao from "../../../public/images/icons_parceiros/carbon_ibm-cloud-pak-network-automation.svg";
+import eletronica from "../../../public/images/icons_parceiros/eletronic_icon.svg";
+import quimica from "../../../public/images/icons_parceiros/carbon_chemistry.svg";
 
 import styles from "./styles.module.css";
 import { ModalRadixUI } from "../ModalRadixUI";
@@ -40,31 +44,48 @@ export function CardListEmpresas(){
                     area={4}
                 />
                 <ModalRadixUI
-                    title={'Automotiva'}
-                    src={automotiva}
+                    title={'Refrigeração'}
+                    src={climatizacao}
                     area={5}
                 />
                 <ModalRadixUI
-                    title={'Refrigeração'}
-                    src={climatizacao}
+                    title={'Construção Civil'}
+                    src={construction}
                     area={6}
                 />
             </div>
             <div className={styles.subModalRadix}>
                 <ModalRadixUI
-                    title={'Construção Civil'}
-                    src={construction}
+                    title={'Energia'}
+                    src={energy}
                     area={7}
                 />
                 <ModalRadixUI
-                    title={'Energia'}
-                    src={energy}
+                    title={'Automotiva'}
+                    src={automotiva}
                     area={8}
                 />
                 <ModalRadixUI
-                    title={'Gestão'}
-                    src={gestor}
+                    title={'Têxtil e Vestuário'}
+                    src={vestuario}
                     area={9}
+                />
+            </div>
+            <div className={styles.subModalRadix}>
+                <ModalRadixUI
+                    title="Automação"
+                    src={automacao}
+                    area={10}
+                />
+                <ModalRadixUI
+                    title="Eletrônica"
+                    src={eletronica}
+                    area={11}
+                />
+                <ModalRadixUI
+                    title="Quimica"
+                    src={quimica}
+                    area={12}
                 />
             </div>                  
         </div>

@@ -11,14 +11,14 @@ const linkVideo = [
         company: 'Firjan Senai'
     },
     {
-        src : 'https://www.youtube.com/embed/Fu7FQCcXNpY',
-        title: '+Parceiros – Casa Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Casa Firjan Senai' 
+        src : 'https://www.youtube.com/embed/g0GuIeIqqeo',
+        title: '+Parceiros – Jaguar – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
+        company: 'Jaguar' 
     },
     {
-        src: 'https://www.youtube.com/embed/Xxkk6tyHhxE',
-        title: '+Parceiros – Construção – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Campanha'
+        src: 'https://www.youtube.com/embed/QKjFZNXNeik',
+        title: '+Parceiros – Metalsul – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
+        company: 'Metalsul'
     },
     {
         src: 'https://www.youtube.com/embed/MO00N2FE2LM',

@@ -4,7 +4,6 @@ import { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { ContentModal } from "../ContentModal";
 import style from "./styles.module.css";
-import { averta } from "../../../pages/_app";
 
 type ModalProps = {
     title : string;
@@ -13,14 +12,16 @@ type ModalProps = {
 }
 
 export function ModalRadixUI({title, src, area }:ModalProps){
+    
     const [isOpen, setIsOpen] = useState(false);
+    
     return (
         <Dialog.Root defaultOpen open={isOpen} onOpenChange={setIsOpen} modal>
             <Dialog.Trigger className={style.card} onClick={() => setIsOpen(true)}>
                 <Image src={src} alt='image' width={40} height={40}/>
                 <p>{title}</p>
             </Dialog.Trigger>
-            <Dialog.Portal>
+            <Dialog.Portal className={style.container_portal}>
                 <Dialog.Overlay className={style.modalStyle}>
                     <Dialog.Content className={style.renderContent}>                    
                         <div className={style.container}>

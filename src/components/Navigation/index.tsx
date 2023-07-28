@@ -22,7 +22,7 @@ export function Navigation(){
                 href="#editais"
                 aria-label='acesse nossos editais'
             >
-                ACESSE O EDITAL PARA PARCEIRAS
+                ACESSE O EDITAL PARA PARCERIAS
             </a>
             <a 
                 href="#seja_parceiro"

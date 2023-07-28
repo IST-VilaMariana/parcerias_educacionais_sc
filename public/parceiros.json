@@ -1,134 +1,408 @@
 ﻿{    
     "mecanica_metalurgica" : [
         { 
-            "id": 1,
+            "id": "b22d90a3-c8e6-4354-a6e0-6953e4871859",
             "area": "Mecância e Metalurgica",    
-            "empresa":  "Cimep (Grupo Brasilata)",
-            "escola_responsavel": "Firjan Senai"
+            "empresa":  "Cimep (Brasilata)",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Barra do Piraí"
         },
         { 
-            "id":2,
-            "area": "Mecância e Metalurgica",    
-            "empresa":  "Ternium Brasil LTDA",
-            "escola_responsavel": "Firjan Senai"
+            "id":"022fb809-8190-4827-9512-c1460e2d7e2d",
+            "area": "Mecância e Metalurgica",   
+            "empresa":  "Ge Celma",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Petrópolis"
+        },
+        {
+            "id": "033ce06f-3a39-4415-9b15-2128d1ee9053",
+            "area": "Mecância e Metalurgica",
+            "empresa": "Ternium",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Itaguaí"
+        },
+        {
+            "id": "3631e359-9360-4706-b32f-8892d0061562",
+            "area": "Mecância e Metalurgica",
+            "empresa": "Gerdau",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Barra do Piraí"
+        },
+        {
+            "id": "e9089183-f004-499d-b7b6-ac2f56ab1b05",
+            "area": "Mecância e Metalurgica",
+            "empresa": "Empresa Itaguaí",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Vila Isabel"
+        },
+        {
+            "id": "fe0dc938-184e-45e1-be1b-87b8232b1d20",
+            "area": "Mecância e Metalurgica",
+            "empresa": "Braços",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Barra do Piarí"
         }
+        
     ],
     "alimentos": [
         {
-            "id": 3,
+            "id": "93689a75-51c6-4f05-bc02-cb67497cf71c",
             "area": "Alimentos e Bebidas",
-            "empresa": "Moinhos Cruzeiro Do Sul S.A.",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Indústrias Granfino S/A",
+            "icon_empresa": "",
+            "escola_responsavel": "Nova Iguaçu"
         },
         {
-            "id": 4,
+            "id": "cd3fd8e4-37ea-4310-9fcf-787b40f5d4a8",
             "area": "Alimentos e Bebidas",
-            "empresa": "Coperativa Agrária",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Moinhos Cruzeiro do Sul S.A",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+        },
+        {
+            "id": "19522c75-1477-4c81-b167-91a6870b42ec",
+            "area": "Alimentos e Bebidas",
+            "empresa": "BIO 4",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+        },
+        {
+            "id": "1197bf9c-77d6-4e9b-bc27-51200f7993e3",
+            "area": "Alimentos e Bebidas",
+            "empresa": "New Age",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+        },
+        {
+            "id": "229890ff-c23a-441a-bff4-180c8cae5d0d",
+            "area": "Alimentos e Bebidas",
+            "empresa": "Science Of Beer",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+        },
+        {
+            "id": "1b1b45ac-15a3-4361-8119-5b73f6c929a5",
+            "area": "Alimentos e Bebidas",
+            "empresa": "Cachaça da Quinta",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+        },
+        {
+            "id": "87784865-0204-4db2-9582-e70a891d7ea1",
+            "area": "Alimentos e Bebidas",
+            "empresa": "Cooperativa Agrária",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
         }
     ],
     "plasticos" : [
         {
-            "id": 5,
+            "id": "6e7598ad-c3ca-435d-ac09-e66118324221",
             "area": "Plásticos",
-            "empresa": "Companhia de Canetas Compactor",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Canetas Compactor",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Nova Iguaçu"
         },
         {
-            "id": 6,
+            "id": "6e7598ad-c3ca-435d-ac09-e66118324221",
             "area": "Plásticos",
-            "empresa": "Fabricadora de Poliuretano Rio Sul LTDA",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Fabricadora de Poliuretano",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Nova Iguaçu"
         }
     ],
     "tecnologia_informacao" : [
         {
-            "id": 7,
+            "id": "86a599fb-9f09-4fae-bf94-64e65011a26b",
             "area": "Tecnologia da Informação",
-            "empresa": "Orange Business Services Brasil LTDA",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Orange",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Petrópolis"
         },
         {
-            "id": 8,
+            "id": "63273a20-41c5-427c-8249-16e1e53495da",
             "area": "Tecnologia da Informação",
-            "empresa": "Orange Business Services Brasil LTDA",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Google",
+            "icon_empresa": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
+            "escola_responsavel": "Centro de Referência Maracanã"
+        },
+        {
+            "id": "f10524fc-439f-4fc6-9241-836eaa613bab",
+            "area": "Tecnologia da Informação",
+            "empresa": "Oracle",
+            "icon_empresa": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/oracle-512.png",
+            "escola_responsavel": "Centro de Referência Maracanã"
+        },
+        {
+            "id": "ebdf9db5-9679-4ccb-89f1-dd2ba1058561",
+            "area": "Tecnologia da Informação",
+            "empresa": "Zerezes",
+            "icon_empresa": "",
+            "escola_responsavel": "Centro de Referência Maracanã"
         }
     ],
     "refrigeracao" : [
         {
-            "id": 9,
+            "id": "2b6f40b3-1815-4bcb-ad9e-27005f6c3ffd",
             "area": "Refrigeração e Climatização",
-            "empresa": "Green",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Gree",
+            "escola_responsavel": "Firjan Senai Benfica"
         },
         {
-            "id": 10,
+            "id": "c2c41995-8df3-442c-b9b4-552bf2b6a1d1",
+            "area": "Refrigeração e Climatização",
+            "empresa": "Giz",
+            "escola_responsavel": "Firjan Senai Benfica"
+        },
+        {
+            "id": "22509496-17ee-4b13-b913-62d5449a60ed",
             "area": "Refrigeração e Climatização",
             "empresa": "Eletrolux",
-            "escola_responsavel": "Firjan Senai"
+            "escola_responsavel": "Firjan Senai Benfica"
+        },
+        {
+            "id": "2977b950-4f32-4eb3-9e99-5d7b3c72c8b7",
+            "area": "Refrigeração e Climatização",
+            "empresa": "Full Gauge",
+            "escola_responsavel": "Firjan Senai Benfica"
+        },
+        {
+            "id": "a7a6dde3-29f3-4dc8-8c3a-3f8307befacb",
+            "area": "Refrigeração e Climatização",
+            "empresa": "LG Eletronics Do Brasil LTDA",
+            "escola_responsavel": "Firjan Senai Vicente de Carvalho"
         }
     ],
     "construcao_civil" : [
         {
-            "id": 11,
+            "id": "2f4f1211-e11d-4504-89b7-dbcb46f2801a",
             "area": "Construção Civil",
-            "empresa": "Gypsum Mineração Industria e Comércio LTDA",
-            "escola_responsavel": "Firjan Senai"
+            "empresa": "Gypsum",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Itaguaí"
         },
         {
-            "id": 12,
+            "id": "0d6a6ae1-1cc5-4774-90c2-e091339914cc",
+            "area": "Construção Civil",
+            "empresa": "Knauf",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Nova Friburgo"
+        },
+        {
+            "id": "d426d396-e7e2-4491-88d7-74fdb037c3b9",
+            "area": "Construção Civil",
+            "empresa": "Pedrinco Pedreiras e Industria de Concreto LTDA",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Nova Friburgo e Centro de Referência de Construção - Tijuca"
+        },
+        {
+            "id": "6aa92f16-6598-4751-a34b-3299a8191c95",
             "area": "Construção Civil",
             "empresa": "Cidade das Tintas",
-            "escola_responsavel": "Firjan Senai"
-        },
-        {
-            "id": 13,
-            "area": "Construção Civil",
-            "empresa": "Município de Tanguá",
-            "escola_responsavel": "Firjan Senai"
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Vicente de Carvalho"
         }
     ],
     "energia" : [
         {
-            "id": 14,
+            "id": "7803d9c7-2aaa-47fc-8478-f9e90cf18c6f",
             "area": "Energia e Eletricidade",
             "empresa":"Macomevap",
-            "escola_responsavel":"Firjan Senai"
+            "icon_empresa": "",
+            "escola_responsavel":"Benfica"
         },
         {
-            "id": 15,
+            "id": "230a17c8-c1d1-4386-9c02-4f138dc62057",
             "area": "Energia e Eletricidade",
-            "empresa":"Minipa",
-            "escola_responsavel":"Firjan Senai"
-        }
-    ],
-    "gestao" : [
-        {
-            "id": 16,
-            "area": "Gestão",
-            "empresa":"Município São Pedro da Aldeia",
-            "escola_responsavel":"Firjan Senai"
+            "empresa":"Centelha",
+            "icon_empresa": "",
+            "escola_responsavel":"Benfica"
         },
         {
-            "id": 17,
-            "area": "Gestão",
-            "empresa":"ERFLEX software LTDA",
-            "escola_responsavel":"Firjan Senai"
+            "id": "3681202e-a925-4706-922b-b8cb3006804b",
+            "area": "Energia e Eletricidade",
+            "empresa": "Minipa",
+            "icon_empresa": "",
+            "escola_responsavel": "Benfica"
         }
     ],
     "automotiva": [
         {
-            "id": 18,
+            "id": "c64efec9-d54c-4e3e-9d8f-51908bdda22a",
             "area": "Automotiva",
             "empresa":"Stellantis",
-            "escola_responsavel":"Firjan Senai"
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Rezende"
         },
         {
-            "id": 19,
+            "id": "07e0e35f-f74b-449a-bf30-90d223cd96bd",
             "area": "Automotiva",
-            "empresa":"FCA FIAT Chrysler Automóveis Brasil LTDA",
-            "escola_responsavel":"Firjan Senai"
+            "empresa":"Nissan",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "5e1c2f4b-4b4c-4609-8ccd-0e64e7e54255",
+            "area": "Automotiva",
+            "empresa": "FCA Fiat Chrysler",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "d671bf27-1e07-4a04-a4b8-77b48249b225",
+            "area": "Automotiva",
+            "empresa": "General Motors",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "74edb665-6035-4d75-a4c6-b9780ab2bf81",
+            "area": "Automotiva",
+            "empresa": "Peugeot",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "a3cf5746-3d0e-430b-b5a4-94d304a69449",
+            "area": "Automotiva",
+            "empresa": "Renaut",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "7142ea4e-9667-46e5-9f5b-30967055f5d7",
+            "area": "Automotiva",
+            "empresa": "Volkswagen",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "fa04d6cf-839a-4eea-a891-35d5d987dd5a",
+            "area": "Automotiva",
+            "empresa": "Toyota",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "25e982cb-7cc4-428b-803d-9f1ea43c71d3",
+            "area": "Automotiva",
+            "empresa": "Yamaha",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "06e52490-1f77-447d-bb85-5c71a2ff6ee4",
+            "area": "Automotiva",
+            "empresa": "Ford",
+            "icon_empresa": "",
+            "escola_responsavel": "Firjan Senai Jacarepaguá"
+        },
+        {
+            "id": "d0295633-845a-4d7f-aa55-b518d76c0efd",
+            "area": "Automotiva",
+            "empresa": "Jaguar",
+            "icon_empresa": "https://yt3.googleusercontent.com/MbWj7dKfij6MHDtk8Z5lm4qIKaK8T8TO5HghNxmd_RlERW9bGskvH8Va9r47SKwTHHz7mZS2=s176-c-k-c0x00ffffff-no-rj",
+            "escola_responsavel": "Firjan Senai Institutos de Inovação"
+        }
+
+    ],
+    "textil_vestuario": [
+        {
+            "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
+            "area": "Têxtil e Vestuário",
+            "empresa":"Akik Lingerie LTDA",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Nova Friburgo"
+        },
+        {
+            "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
+            "area": "Têxtil e Vestuário",
+            "empresa":"De Chelles Indústria de Confecções LTDA",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Nova Friburgo"
+        },
+        {
+            "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
+            "area": "Têxtil e Vestuário",
+            "empresa":"Jescri de Friburgo Moda Íntima LTDA",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Nova Friburgo"
+        }
+    ],
+    "automacao": [
+        {
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "area": "Automação",
+            "empresa":"Siemens",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Benfica"
+        },
+        {
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "area": "Automação",
+            "empresa":"Altus",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Benfica"
+        },
+        {
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "area": "Automação",
+            "empresa":"Festo",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Benfica"
+        },
+        {
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "area": "Automação",
+            "empresa":"Ska",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Benfica"
+        }
+    ],
+    "eletronica": [
+        {
+            "id": "e38aad46-e486-4f6d-8220-92f2ff7ad68c",
+            "area": "Eletrônica",
+            "empresa":"New End Tecnologia em Inspeções",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+        },
+        {
+            "id": "07d3af91-910b-45fe-b0ef-7a69a30b64ac",
+            "area": "Eletrônica",
+            "empresa":"Olympus Arotec",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+        },
+        {
+            "id": "72ab8f94-724d-4541-b243-9861ed29c37e",
+            "area": "Eletrônica",
+            "empresa":"Rothemberg TC",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+        },
+        {
+            "id": "98f8f1cd-af0c-4b42-ab0a-7fc75b218cea",
+            "area": "Eletrônica",
+            "empresa":"Eddyfi Tecnologies",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+        },
+        {
+            "id": "98f8f1cd-af0c-4b42-ab0a-7fc75b218cea",
+            "area": "Eletrônica",
+            "empresa":"Magnaflux",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+        }
+    ],
+    "quimica": [
+        {
+            "id": "3656a292-1eff-4a96-9cc1-9419ff180608",
+            "area": "Química",
+            "empresa":"Jotun Brasil LTDA",
+            "icon_empresa": "",
+            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
         }
     ]
 }
