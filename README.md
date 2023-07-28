@@ -78,20 +78,21 @@ const questionsAnswers = [
 ```
 ### Modal
 
-1. Acesse a pasta /public no script parceiros.json após a "automotiva" na linha 155 adcione o seguinte objeto:
+1. Acesse a pasta /public no script parceiros.json após a `quimica`, adcione o seguinte objeto:
 
 ```bash
     ,
     "area_tecnologica": [
         {
-            "id": número,
+            "id": "d0295633-845a-4d7f-aa55-b518d76c0efd",
             "area": "Automotiva",
             "empresa":"Nome da Empresa",
+            "icon_empresa":"url da imagem",
             "escola_responsavel":"código da escola - Nome Escola Senai - bairro "
         }
     ]
 ```
-***Atenção:*** Cabe resaltar que o id deve obdecer a sequência das aréas já declaradas.
+***Atenção***: O atributo `icon_empresa` é opcional e pode ser declarada `""` caso não tenha imagem.
 
 2. Faça o download do icone do botão para a pasta /public/images/icons_parceiros
 
@@ -103,7 +104,7 @@ const questionsAnswers = [
     import nome_icon from "../../../public/images/icons_parceiros/icone_baixado.svg";
 ```
 
-5. Adcione o seguinte script no retorno da função CardListEmpresas() na linha 69:
+5. Adcione o seguinte script no retorno da função CardListEmpresas() o seguinte script:
 
 ```jsx
     <div className={styles.subModalRadix}>
@@ -123,13 +124,18 @@ onde
 
 6. Acesse a pasta src/components/ContentModal/index.tsx
 
-7. Após a variável "empresas_energia" na linha 118 adcione o seguinte código: 
+7. Após a variável `empresas_quimica`, adcione o seguinte código: 
 ```jsx
     const empresas_nova_area_tecnologia = list_parceiros.area_tecnologica.map((item) => {
     return (
         <tr key={item.id}>
             <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
-                <Image src={logo} alt='logo empresa' width={45} height={45}/>
+                { item.icon_empresa ? (
+                    <img src={item.icon_empresa} className={styles.icon} />
+                    ) : (
+                    <FaIndustry className={styles.icon} />
+                    )
+                }
                 <div style={{'margin': '1rem'}}>{item.empresa}</div>
             </td>
             <td>{item.escola_responsavel}</td>
@@ -139,7 +145,7 @@ onde
 ```
 * area_tecnologia : substitua pelo que foi delarado no atributo "area_tecnologica" no item 1
 
-8. Na função "verify_area( )" adcione o seguinte código antes de 'no_empresas':
+8. Na função `verify_area( )` adcione o seguinte código antes de 'no_empresas':
 
 ```jsx
     function verify_area(area: number){
@@ -155,15 +161,15 @@ onde
 ### SlideShow para vídeos
 1. Acesse src/components/SliderShowVideo/index.tsx
 
-2. Na linha 7 localize a variável "linkVideo" e adcione no final o seguinte objeto:
+2. Localize a variável `linkVideo` e adcione no final o seguinte objeto:
 ```bash
     {
         src : 'url_do_video',
-        title : '+Parceiros – Senai-RJ – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
+        title : '+Parceiros – Firjan Senai – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
         company: 'Nome da Empresa'
     }
 ```
-Para os vídeos que são provindos do Youtube não esquecer do "/embed/" para que o servidor tenha acesso de renderização.
+Para os vídeos que são provindos do Youtube não esquecer do `/embed/` para que o servidor tenha acesso de renderização.
 ```bash
     {
         src: 'https://www.youtube.com/embed/id_video'

@@ -146,30 +146,35 @@
             "id": "2b6f40b3-1815-4bcb-ad9e-27005f6c3ffd",
             "area": "Refrigeração e Climatização",
             "empresa": "Gree",
+            "icon_empresa": "",
             "escola_responsavel": "Firjan Senai Benfica"
         },
         {
             "id": "c2c41995-8df3-442c-b9b4-552bf2b6a1d1",
             "area": "Refrigeração e Climatização",
             "empresa": "Giz",
+            "icon_empresa": "",
             "escola_responsavel": "Firjan Senai Benfica"
         },
         {
             "id": "22509496-17ee-4b13-b913-62d5449a60ed",
             "area": "Refrigeração e Climatização",
             "empresa": "Eletrolux",
+            "icon_empresa": "",
             "escola_responsavel": "Firjan Senai Benfica"
         },
         {
             "id": "2977b950-4f32-4eb3-9e99-5d7b3c72c8b7",
             "area": "Refrigeração e Climatização",
             "empresa": "Full Gauge",
+            "icon_empresa": "",
             "escola_responsavel": "Firjan Senai Benfica"
         },
         {
             "id": "a7a6dde3-29f3-4dc8-8c3a-3f8307befacb",
             "area": "Refrigeração e Climatização",
             "empresa": "LG Eletronics Do Brasil LTDA",
+            "icon_empresa": "",
             "escola_responsavel": "Firjan Senai Vicente de Carvalho"
         }
     ],

@@ -6,7 +6,6 @@ import automotiva from "../../../public/images/icons_parceiros/bxs_car-mechanic.
 import climatizacao from "../../../public/images/icons_parceiros/icon-park-outline_air-conditioning.svg";
 import construction from "../../../public/images/icons_parceiros/construction-svgrepo-com.svg";
 import energy from "../../../public/images/icons_parceiros/energy-svgrepo-com.svg";
-import gestor from "../../../public/images/icons_parceiros/fluent-mdl2_workforce-management.svg";
 import vestuario from "../../../public/images/icons_parceiros/map_clothing-store.svg";
 import automacao from "../../../public/images/icons_parceiros/carbon_ibm-cloud-pak-network-automation.svg";
 import eletronica from "../../../public/images/icons_parceiros/eletronic_icon.svg";
