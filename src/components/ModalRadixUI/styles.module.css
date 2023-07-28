@@ -48,7 +48,6 @@
     transform: translate(-50%, -50%);
     width: auto;
     height: auto;
-    overflow: auto;
 }
 .headermodal{
     display: flex;
@@ -73,12 +72,8 @@
     height: 2rem;
 }
 @media(max-width: 1000px){
-    .renderContent {
-        /*width: 75rem;*/
-        max-width: 43.75rem;
-        max-height: 22.5rem;
-        overflow-x: auto;
-        overflow-y: auto;
+    .renderContent{
+        margin-top: 1.9rem;
     }
     .headermodal {
         width: 43.75rem;
@@ -89,6 +84,7 @@
         align-items: flex-start;
         width: auto;
         height: auto;
+        overflow: scroll;
     }
     .card {
         text-align: center;

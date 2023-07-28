@@ -209,21 +209,21 @@
             "area": "Energia e Eletricidade",
             "empresa":"Macomevap",
             "icon_empresa": "",
-            "escola_responsavel":"Benfica"
+            "escola_responsavel":"Firjan Senai Benfica"
         },
         {
             "id": "230a17c8-c1d1-4386-9c02-4f138dc62057",
             "area": "Energia e Eletricidade",
             "empresa":"Centelha",
             "icon_empresa": "",
-            "escola_responsavel":"Benfica"
+            "escola_responsavel":"Firjan Senai Benfica"
         },
         {
             "id": "3681202e-a925-4706-922b-b8cb3006804b",
             "area": "Energia e Eletricidade",
             "empresa": "Minipa",
             "icon_empresa": "",
-            "escola_responsavel": "Benfica"
+            "escola_responsavel": "Firjan Senai Benfica"
         }
     ],
     "automotiva": [
