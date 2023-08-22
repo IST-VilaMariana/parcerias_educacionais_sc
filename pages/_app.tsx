@@ -1,4 +1,4 @@
-import { AppProps } from 'next/app';
+import {AppProps} from 'next/app';
 import localFont from '@next/font/local';
 import { useEffect } from 'react';
 import { Footer } from '../src/components/Footer';

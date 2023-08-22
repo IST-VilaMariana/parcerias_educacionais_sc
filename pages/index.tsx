@@ -73,7 +73,7 @@ export default function Home() {
           <section className={styles.sectionContainer}>
             <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
             <br />
-            <p>Caso sua empresa esteja interessada em se tornar um parcerio da <strong>FIRJAN SENAI</strong></p>
+            <p>Caso sua empresa esteja interessada em se tornar um parceiro da <strong>FIRJAN SENAI</strong></p>
             <br />
             <Form />
           </section>
