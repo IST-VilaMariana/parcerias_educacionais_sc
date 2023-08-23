@@ -25,7 +25,7 @@ npm install
 # ou
 yarn
 ```
-## Uso
+## Uso Em Ambiente de Desenvolvimento
 
 1. Inicie o servidor: 
 
@@ -37,6 +37,21 @@ yarn dev
 
 2. A aplicação estará disponível em http://localhost:3000
 
+## Instruções para Ambiente de Produção
+Após os procedimentos realizados no Item de [Instalação](#instalação):
+1. Realize o processo de Build do código-fonte:
+```bash
+npm run build
+# ou
+yarn build
+```
+2. Inicie o servidor no ambiente de produção configurado:
+```bash
+npm run start
+# ou
+yarn start
+```
+3. A aplicação estará disponível em http://localhost:3000 já disponível o código no processo de build.
 ## Mais sobre o NextJS
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.

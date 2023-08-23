@@ -6,22 +6,22 @@ import styles from './styles.module.css';
 
 const linkVideo = [
     {
-        src : 'https://www.youtube.com/embed/hgjfQJroR8k',
+        src : 'https://www.youtube-nocookie.com/embed/hgjfQJroR8k',
         title : '+Parceiros – Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'Firjan Senai'
     },
     {
-        src : 'https://www.youtube.com/embed/g0GuIeIqqeo',
+        src : 'https://www.youtube-nocookie.com/embed/g0GuIeIqqeo',
         title: '+Parceiros – Jaguar – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'Jaguar' 
     },
     {
-        src: 'https://www.youtube.com/embed/QKjFZNXNeik',
+        src: 'https://www.youtube-nocookie.com/embed/QKjFZNXNeik',
         title: '+Parceiros – Metalsul – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'Metalsul'
     },
     {
-        src: 'https://www.youtube.com/embed/MO00N2FE2LM',
+        src: 'https://www.youtube-nocookie.com/embed/MO00N2FE2LM',
         title: '+Parceiros – eSocial – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
         company: 'eSocial'
     },

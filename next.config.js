@@ -14,11 +14,15 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "style-src 'unsafe-inline'; frame-ancestors 'self' https://www.youtube.com https://forms.office.com"
+            value: "style-src 'unsafe-inline' 'self'; frame-ancestors 'self' https://www.youtube.com https://forms.office.com"
           },
           {
             key: 'X-Content-Type-Options',
             value: 'nosniff'
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'ch-ua-form-factor'
           }
         ]
       }
