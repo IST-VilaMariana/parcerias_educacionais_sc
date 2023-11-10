@@ -13,18 +13,18 @@ export default function Home() {
   
   return (
     <>
-      <Head><title>Firjan Senai + Parceiros</title></Head>
+      <Head><title>Firjan Senai | Parcerias </title></Head>
         <main>
           <section id="home" className={styles.sectionContainer}>
             <br />
             <div className={styles.title}>
-              <h1>Mais Parceiros</h1>
+              <h1>Programa de Parcerias</h1>
               <MenuSocialMedia/>
             </div>
             <br />
-            <h2>SOBRE O MAIS PARCEIROS</h2>
+            <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
             <br />
-            <p>O programa <strong>Mais Parceiros</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
+            <p>O programa foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
             <strong> FIRJAN SENAI</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
             como demostrar os benefícios em ser um parceiro deste programa.</p>
             <br />
@@ -47,12 +47,12 @@ export default function Home() {
             <br />
             <h2 id="depoimentos">DEPOIMENTOS</h2>
             <br />
-            <p>Conheça o pragrama <strong>Mais Parceiros</strong> pelas palavras de quem já faz parte da nossa rede.</p>
+            <p>Conheça o pragrama pelas palavras de quem já faz parte da nossa rede.</p>
             <br />
             <SliderShowVideo />
           </section>
           <section className={styles.sectionContainer}>
-            <h2 id="editais">MODELOS DE PARCERIA</h2>
+            <h2 id="editais">MODELOS DE PARCERIAS</h2>
             <br />
             <p>A <strong>FIRJAN SENAI</strong> estabelece suas parcerias por meio de modelos de negócios que estabelecem contrapartidas, 
             visando ganhos bilaterais entre os paceiros</p>

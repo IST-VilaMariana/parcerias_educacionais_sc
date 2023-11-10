@@ -7,7 +7,7 @@ export function Header(){
             <div className={styles.header_itens}>
                 <AiFillHome/>
                 <AiOutlineRight  />
-                <span>Mais Parceiros</span>
+                <span>Gestão de Parcerias</span>
             </div>
         </header>
     )
