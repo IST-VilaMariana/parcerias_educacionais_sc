@@ -18,13 +18,13 @@ export default function Home() {
           <section id="home" className={styles.sectionContainer}>
             <br />
             <div className={styles.title}>
-              <h1>Programa de Parcerias</h1>
+              <h1>Programa Indústria Mais Parceira</h1>
               <MenuSocialMedia/>
             </div>
             <br />
             <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
             <br />
-            <p>O programa foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
+            <p>O programa <strong>Indústria mais Parceira</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
             <strong> FIRJAN SENAI</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
             como demostrar os benefícios em ser um parceiro deste programa.</p>
             <br />
