@@ -1,6 +1,15 @@
-## Interface Senai + Parceiros RJ
+## Interface Indústria Mais Parceira Firjan Senai
 
-Inteface do programa Mais Paceiros Rio de Janeiro
+Inteface do programa Indústria Mais Parceira Firjan Senai Rio de Janeiro
+
+## Demonstração
+Visualização Web:
+
+<img src="./public/interface.gif">
+
+Visualização Mobile:
+
+<img src="./public/mobile.gif">
 
 ## Pré-requisitos
 
