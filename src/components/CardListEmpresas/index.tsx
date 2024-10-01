@@ -10,7 +10,6 @@ import vestuario from "../../../public/images/icons_parceiros/map_clothing-store
 import automacao from "../../../public/images/icons_parceiros/carbon_ibm-cloud-pak-network-automation.svg";
 import eletronica from "../../../public/images/icons_parceiros/eletronic_icon.svg";
 import quimica from "../../../public/images/icons_parceiros/carbon_chemistry.svg";
-
 import styles from "./styles.module.css";
 import { ModalRadixUI } from "../ModalRadixUI";
 
