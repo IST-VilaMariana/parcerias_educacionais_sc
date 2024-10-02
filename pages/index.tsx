@@ -13,20 +13,20 @@ export default function Home() {
   
   return (
     <>
-      <Head><title>Firjan Senai | Parcerias </title></Head>
+      <Head><title>Senai SC | Parcerias </title></Head>
         <main>
           <section id="home" className={styles.sectionContainer}>
             <br />
             <div className={styles.title}>
-              <h1>Programa Indústria Mais Parceira</h1>
+              <h1>Programa Parcerias Educaionais</h1>
               <MenuSocialMedia/>
             </div>
             <br />
             <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
             <br />
-            <p>O programa <strong>Indústria mais Parceira</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
-            <strong> FIRJAN SENAI</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
-            como demostrar os benefícios em ser um parceiro deste programa.</p>
+            <p>O programa <strong>Parcerias Educaionais</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
+            <strong> SENAI SC</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
+            como demonstrar os benefícios em ser um parceiro deste programa.</p>
             <br />
             <Navigation />
             <br />
@@ -34,7 +34,7 @@ export default function Home() {
             <Carousel />
             <h2>UMA REDE PARA + VALORES</h2>
             <br />
-            <p>A <strong>FIRJAN SENAI</strong> já consolidou mais de 65 parcerias em 12 setores da indústria, distribuídos por sua rede. Alguns exemplos de sucesso estão concentrados nas áreas de automobilística, metalmecâncica e etc.</p>
+            <p>O <strong>SENAI SC</strong> já consolidou mais de 65 parcerias em 12 setores da indústria, distribuídos por sua rede. Alguns exemplos de sucesso estão concentrados nas áreas de automobilística, metalmecâncica e etc.</p>
             <br />
             <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
             <br />
@@ -54,7 +54,7 @@ export default function Home() {
           <section className={styles.sectionContainer}>
             <h2 id="editais">MODELOS DE PARCERIAS</h2>
             <br />
-            <p>A <strong>FIRJAN SENAI</strong> estabelece suas parcerias por meio de modelos de negócios que estabelecem contrapartidas, 
+            <p>O <strong>SENAI SC</strong> estabelece suas parcerias por meio de modelos de negócios que estabelecem contrapartidas, 
             visando ganhos bilaterais entre os paceiros</p>
             <span>I. Tipos de instrumentos jurídicos anteriores à formalização de parcerias:</span>
             <ul>
@@ -73,7 +73,7 @@ export default function Home() {
           <section className={styles.sectionContainer}>
             <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
             <br />
-            <p>Caso sua empresa esteja interessada em se tornar um parceiro da <strong>FIRJAN SENAI</strong></p>
+            <p>Caso sua empresa esteja interessada em se tornar um parceiro do <strong>SENAI SC</strong></p>
             <br />
             <Form />
           </section>

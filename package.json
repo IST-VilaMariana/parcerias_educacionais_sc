@@ -1,5 +1,6 @@
 {
-  "name": "senai_mais_parceiros_rj",
+  "name": "senai_mais_parceiros_sc",
+  "description": "Interface Programa Parcerias Educacionais ",
   "version": "0.1.0",
   "private": true,
   "scripts": {

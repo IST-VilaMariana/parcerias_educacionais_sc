@@ -1,6 +1,6 @@
-## Interface Indústria Mais Parceira Firjan Senai
+## Interface Programa Parcerias Educacionais - Senai SC 
 
-Inteface do programa Indústria Mais Parceira Firjan Senai Rio de Janeiro
+Inteface do programa Parceriais Educacionais Senai Santa Catarina
 
 ## Demonstração
 Visualização Web:
@@ -24,7 +24,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/IST-VilaMariana/mais_parceiros_rj.git
+git clone https://github.com/IST-VilaMariana/mais_parceiros_sc.git
 
 ```
 2. Instale as dependências do projeto:
@@ -209,4 +209,4 @@ Para os vídeos que são provindos do Youtube não esquecer do `/embed/` para qu
 ```
 ### Formulário
 
-O formulário é atualizado pela plataforma [Microsof Forms](https://www.microsoft365.com/launch/forms?auth=2) realize o login pelo email : maisparceiros@firjan.com.br
+O formulário é atualizado pela plataforma [Microsof Forms](https://www.microsoft365.com/launch/forms?auth=2) realize o login pelo email : parcerias.educaionais@sc.senai.br

@@ -6,29 +6,19 @@ import styles from './styles.module.css';
 
 const linkVideo = [
     {
-        src : 'https://www.youtube-nocookie.com/embed/hgjfQJroR8k',
-        title : '+Parceiros – Firjan – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Firjan Senai'
+        src : 'https://www.youtube.com/embed/YwvfzuXQcRs?si=F4FkSvSxT5ItvuCp',
+        title : 'Projetos Integradores',
+        company: 'UniSenai - SC'
     },
     {
-        src : 'https://www.youtube-nocookie.com/embed/g0GuIeIqqeo',
-        title: '+Parceiros – Jaguar – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Jaguar' 
+        src : 'https://www.youtube.com/embed/pFQ7z4yrpGc?si=wsJ_S65UaRs0gaug',
+        title: 'Aprendizagem Industrial',
+        company: 'SENAI SC' 
     },
     {
-        src: 'https://www.youtube-nocookie.com/embed/QKjFZNXNeik',
-        title: '+Parceiros – Metalsul – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Metalsul'
-    },
-    {
-        src: 'https://www.youtube-nocookie.com/embed/MO00N2FE2LM',
-        title: '+Parceiros – eSocial – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'eSocial'
-    },
-    {
-        src: 'https://www.youtube.com/embed/2w1ZvAsZpOo',
-        title: '+Parceiros – Rede Oléo e Gás – Depoimento de quem já faz parte da nossa rede | FIRJAN SENAI',
-        company: 'Rede De Oléo e gás'
+        src: 'https://www.youtube.com/embed/odl_k94NeZU?si=AJBuYkPfxa0ykQse',
+        title: 'Indústria 4.0',
+        company: 'SENAI SC'
     }
 ];
 
