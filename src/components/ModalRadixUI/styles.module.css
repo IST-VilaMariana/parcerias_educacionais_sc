@@ -11,14 +11,15 @@
     height: 5.375rem;
     padding: 1.725rem;
     margin: 1.5rem;
-    background: var(--white);
-    border: none;
+    background: var(--brand-700);
+    border-radius: 0.25rem;
     transition: border 0.2s;
+    color: var(--white);
 }
 .card p {
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 1.125rem;
     line-height: 35px;
 }
 .card:hover {

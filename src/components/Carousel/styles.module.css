@@ -27,7 +27,7 @@
     width: 20rem;
     height: 90%;
     pointer-events: none;
-    background: var(--gray-200);
+    background: var(--brand-700);
     padding: 1rem;
     margin: 1rem;
     border-radius: 0.625rem;
@@ -35,12 +35,14 @@
 .item span {
     width: 20rem;
     height: 1.75rem;
+    color: var(--white);
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.75rem;
 }
 .item p {
+    color: var(--white);
    font-style: normal;
    text-align: justify;
     font-weight: 400;

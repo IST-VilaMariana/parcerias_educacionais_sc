@@ -17,17 +17,14 @@ export default function Home() {
         <main>
           <section id="home" className={styles.sectionContainer}>
             <br />
+              <h1>Programa Parcerias Educacionais</h1>
             <div className={styles.title}>
-              <h1>Programa Parcerias Educaionais</h1>
+              <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
               <MenuSocialMedia/>
             </div>
-            <br />
-            <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
-            <br />
             <p>O programa <strong>Parcerias Educaionais</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
             <strong> SENAI SC</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
             como demonstrar os benefícios em ser um parceiro deste programa.</p>
-            <br />
             <Navigation />
             <br />
             <p>O programa estabelece os seguintes benefícios:</p>
