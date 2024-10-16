@@ -12,10 +12,9 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "@next/font": "^13.4.19",
     "@radix-ui/react-dialog": "^1.0.2",
     "framer-motion": "^7.5.3",
-    "next": "13.0.6",
+    "next": "^13.5.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0"

@@ -1,21 +1,31 @@
 import {AppProps} from 'next/app';
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 import { useEffect } from 'react';
 import { Footer } from '../src/components/Footer';
 import { Header } from '../src/components/Header';
 import { axeAccessibilityReporter } from '../src/utils/axeAccessibilityReporter';
 import '../styles/globals.css';
 
-export const averta = localFont({
+export const museoSans = localFont({
   src: [
     {
-      path: '../public/averta/averta-regular.otf',
-      weight: '400',
+      path: '../public/MuseoSans/MuseoSans-100.ttf',
+      weight: '100',
       style: 'normal'
     },
     {
-      path: '../public/averta/averta-semibold.otf',
+      path: '../public/MuseoSans/MuseoSans-500.ttf',
+      weight: '500',
+      style: 'normal'
+    },
+    {
+      path: '../public/MuseoSans/MuseoSans-700.ttf',
       weight: '700',
+      style: 'normal'
+    },
+    {
+      path: '../public/MuseoSans/MuseoSans-900.ttf',
+      weight: '900',
       style: 'normal'
     }
   ]
@@ -28,7 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   },[]);
   
   return (
-    <div className={averta.className}>
+    <div className={museoSans.className}>
       <Header />
       <Component {...pageProps} />
       <Footer />
