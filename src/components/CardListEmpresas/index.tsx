@@ -18,8 +18,7 @@ export function CardListEmpresas(){
 
     return (
         <div className={styles.card}>
-            <div className={styles.subModalRadix}>
-                <ModalRadixUI
+            <ModalRadixUI
                     title={'Mecânica e Metalúrgica'}
                     src={mechanic}
                     area={1}
@@ -34,8 +33,6 @@ export function CardListEmpresas(){
                     src={plastic}
                     area={3}
                 />
-            </div>
-            <div className={styles.subModalRadix}>
                 <ModalRadixUI
                     title={'Tecnologia da Informação'}
                     src={computer}
@@ -51,8 +48,6 @@ export function CardListEmpresas(){
                     src={construction}
                     area={6}
                 />
-            </div>
-            <div className={styles.subModalRadix}>
                 <ModalRadixUI
                     title={'Energia'}
                     src={energy}
@@ -68,8 +63,6 @@ export function CardListEmpresas(){
                     src={vestuario}
                     area={9}
                 />
-            </div>
-            <div className={styles.subModalRadix}>
                 <ModalRadixUI
                     title="Automação"
                     src={automacao}
@@ -84,8 +77,7 @@ export function CardListEmpresas(){
                     title="Quimica"
                     src={quimica}
                     area={12}
-                />
-            </div>                  
+                />                 
         </div>
     )
 }

@@ -1,9 +1,8 @@
 ﻿.card {
- background: var(--gray-200);
- border: 1px solid #0000;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+ border: 1px solid var(--black);
  padding: 2rem;
- display: flex;
- flex-direction: column;
 }
 .subCard {
    display: flex;
@@ -15,7 +14,7 @@
 .subModalRadix{
    display: flex;
    flex-direction: row;
-   border: 1px solid #0000;
+   border: 1px solid var(--black);
    justify-content: center;
    align-items: center;
    margin: 1rem;
@@ -24,7 +23,7 @@
 @media(max-width: 900px){
    .card {
       padding: 1rem;
-      flex-direction: column;
+      grid-template-columns: repeat(2, 1fr);
    }
    .subModalRadix {
       flex-direction: column;

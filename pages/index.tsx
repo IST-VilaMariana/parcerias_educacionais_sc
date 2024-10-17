@@ -31,15 +31,11 @@ export default function Home() {
             <div className={styles.title}>
               <h2>UMA REDE PARA + VALORES</h2>
             </div>
-            <br />
             <p>O <strong>SENAI SC</strong> já consolidou mais de 65 parcerias em 12 setores da indústria, distribuídos por sua rede. Alguns exemplos de sucesso estão concentrados nas áreas de automobilística, metalmecâncica e etc.</p>
-            <br />
             <div className={styles.title}>
               <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
             </div>
-            <br />
             <p>Confira a lista de empresas que já são parceiros:</p>
-            <br />
             <ButtonForHome/>
             <CardListEmpresas />
           </section>
