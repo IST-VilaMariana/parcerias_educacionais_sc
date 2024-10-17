@@ -10,20 +10,20 @@ export function MenuSocialMedia(){
         <div className={styles.navConteiner}>
             <a
                 aria-label='Perfil no Facebook'
-                href="https://web.facebook.com/firjanoficial?_rdc=1&_rdr" >
+                href="https://www.facebook.com/senaisc" >
                 <Image src={facebook} alt ="" />
             </a>
             <a aria-label='Página do Twitter'
-                href="https://twitter.com/firjan" 
+                href="https://www.twitter.com/SENAISC" 
             >
                 <Image src={x} alt ="" />
             </a>
-            <a aria-label='Canal no Youtube'
-                href="https://www.youtube.com/user/SistemaFIRJAN" >
+            <a aria-label='Canal no Linkedin'
+                href="https://www.linkedin.com/school/senai-sc" >
                 <Image src={linkedin} alt ="" />
             </a>
-            <a aria-label='Perfil no Instagram'
-             href="https://www.linkedin.com/company/firjan/" >
+            <a aria-label='Perfil no whatsapp'
+             href="https://chat.whatsapp.com/JasrOeBNORVGVeA6FWGFUS" >
                 <Image src={whatsapp} alt ="" />
             </a>
         </div>
