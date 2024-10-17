@@ -1,4 +1,5 @@
-﻿import { AiOutlineLeft } from "react-icons/ai";
+﻿import Image from "next/image";
+import left from "../../../public/icons/Chevron_esquerda.svg"
 import styles from "./styles.module.css";
 
 interface ButtonLefthProps {
@@ -27,9 +28,8 @@ export function ButtonPressLefth({
             aria-label='click para o anterior'
             onClick={prevSlide}
             className={styles.iconButton}
-            style={{ backgroundColor, color, width, height}}
         >
-            <AiOutlineLeft />
+            <Image src={left} alt={''}  />
         </button>
     )
 }

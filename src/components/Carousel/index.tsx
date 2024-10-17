@@ -27,15 +27,13 @@ const questionsAnswers = [
   },
   {
     question: 'Difusão Tecnológica',
-    answer: 'Os esforços conjuntos com a FIRJAN SENAI e de seus parceiros, visam a mordenização de processos, mediante ao uso de produtos e serviços difundidos no mercado.'
+    answer: 'Os esforços conjuntos com a SENAI SC e de seus parceiros, visam a mordenização de processos, mediante ao uso de produtos e serviços difundidos no mercado.'
   },
   {
-    question: 'Capilaridade da Rede FIRJAN SENAI',
+    question: 'Capilaridade da Rede SENAI SC',
     answer: 'Uma parceria consolidada com uma Unidade Operacional da FIRJAN SENAI posibilita sua disseminação pela rede no estado, trazendo mais vantagens para as empresas parceiras.'
   }    
 ];
-
-
 
 export function Carousel(){
   const carousel = useRef(null);
@@ -80,7 +78,8 @@ export function Carousel(){
                 key={item.question}
                 className={styles.item}
               >
-                <div><span>{item.question}</span><p>{item.answer}</p></div>
+                <div className={styles.bloco}><span>{item.question}</span>
+                <p>{item.answer}</p></div>
               </motion.div>
             ))}
           </motion.div>

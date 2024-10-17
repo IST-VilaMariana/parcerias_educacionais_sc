@@ -1,4 +1,5 @@
-﻿import { AiOutlineRight } from "react-icons/ai";
+﻿import right from "../../../public/icons/Chevron_direita.svg";
+import Image from "next/image";
 import styles from "./styles.module.css";
 
 export function ButtonPressRight({ nextSlide }){
@@ -8,7 +9,7 @@ export function ButtonPressRight({ nextSlide }){
             onClick={nextSlide}
             className={styles.iconButton}
         >
-            <AiOutlineRight />
+            <Image src={right} alt={""} />
         </button>
     )
 }

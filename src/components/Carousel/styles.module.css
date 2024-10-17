@@ -1,59 +1,56 @@
-﻿.slider{
-    width: 90%;
-    max-width: 70rem;
-    margin: 0 auto;
-    min-height: 50vh;
+﻿.slider {    
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 0.625rem;
-    
+    justify-content: space-between; 
+    align-items: center;
+    gap: 1rem;
 }
 .carousel{
     cursor: grab;
-    gap: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     overflow: hidden;
 }
 .inner {
     display: flex;
-
+    gap: 2.5rem;
+    align-items: center;
 }
 .item {
-    min-height: 14.5rem;
-    min-width: 25rem;
-    padding: 0.875rem;
-}
-.item div {
-    width: 20rem;
-    height: 90%;
-    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 21.5rem;
+    height: 15.5625rem;
     background: var(--brand-700);
-    padding: 1rem;
-    margin: 1rem;
     border-radius: 0.625rem;
+    box-sizing: border-box;
+}
+.bloco {
+    padding: 1rem 1.3rem;
 }
 .item span {
-    width: 20rem;
-    height: 1.75rem;
+    margin: 0 0 3rem 0 !important;
     color: var(--white);
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
 }
 .item p {
     color: var(--white);
-   font-style: normal;
-   text-align: justify;
+    font-style: normal;
     font-weight: 400;
-    font-size: 0.85rem;
-    line-height: 1.75rem;
+    /* margin: 0.5rem ; 
+    
+
+    /* text-align: justify; */
 }
 .iconButton{
     width: 4rem;
     height: 4rem;
     position: absolute;
-    
 }
 @media(max-width: 450px){
     .slider{

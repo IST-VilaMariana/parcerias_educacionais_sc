@@ -26,14 +26,17 @@ export default function Home() {
             <strong> SENAI SC</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
             como demonstrar os benefícios em ser um parceiro deste programa.</p>
             <Navigation />
-            <br />
             <p>O programa estabelece os seguintes benefícios:</p>
             <Carousel />
-            <h2>UMA REDE PARA + VALORES</h2>
+            <div className={styles.title}>
+              <h2>UMA REDE PARA + VALORES</h2>
+            </div>
             <br />
             <p>O <strong>SENAI SC</strong> já consolidou mais de 65 parcerias em 12 setores da indústria, distribuídos por sua rede. Alguns exemplos de sucesso estão concentrados nas áreas de automobilística, metalmecâncica e etc.</p>
             <br />
-            <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
+            <div className={styles.title}>
+              <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
+            </div>
             <br />
             <p>Confira a lista de empresas que já são parceiros:</p>
             <br />
@@ -42,14 +45,18 @@ export default function Home() {
           </section>
           <section className={styles.sectionContainer}>
             <br />
-            <h2 id="depoimentos">DEPOIMENTOS</h2>
+            <div className={styles.title}>
+              <h2 id="depoimentos">DEPOIMENTOS</h2>
+            </div>
             <br />
             <p>Conheça o pragrama pelas palavras de quem já faz parte da nossa rede.</p>
             <br />
             <SliderShowVideo />
           </section>
           <section className={styles.sectionContainer}>
-            <h2 id="editais">MODELOS DE PARCERIAS</h2>
+            <div className={styles.title}>
+              <h2 id="editais">MODELOS DE PARCERIAS</h2>
+            </div>
             <br />
             <p>O <strong>SENAI SC</strong> estabelece suas parcerias por meio de modelos de negócios que estabelecem contrapartidas, 
             visando ganhos bilaterais entre os paceiros</p>
@@ -68,7 +75,9 @@ export default function Home() {
             </ul>
           </section>
           <section className={styles.sectionContainer}>
-            <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
+            <div className={styles.title}>
+              <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
+            </div>
             <br />
             <p>Caso sua empresa esteja interessada em se tornar um parceiro do <strong>SENAI SC</strong></p>
             <br />
