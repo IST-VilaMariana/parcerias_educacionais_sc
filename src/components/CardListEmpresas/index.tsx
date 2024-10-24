@@ -74,61 +74,6 @@ export function CardListEmpresas(){
                     src={Textil}
                     area={9}
                 />
-                {/* <ModalRadixUI
-                    title={'Alimentos'}
-                    src={fork}
-                    area={2}
-                />
-                <ModalRadixUI
-                    title={'Plásticos'}
-                    src={plastic}
-                    area={3}
-                />
-                <ModalRadixUI
-                    title={'Tecnologia da Informação'}
-                    src={computer}
-                    area={4}
-                />
-                <ModalRadixUI
-                    title={'Refrigeração'}
-                    src={climatizacao}
-                    area={5}
-                />
-                <ModalRadixUI
-                    title={'Construção Civil'}
-                    src={construction}
-                    area={6}
-                />
-                <ModalRadixUI
-                    title={'Energia'}
-                    src={energy}
-                    area={7}
-                />
-                <ModalRadixUI
-                    title={'Automotiva'}
-                    src={automotiva}
-                    area={8}
-                />
-                <ModalRadixUI
-                    title={'Têxtil e Vestuário'}
-                    src={vestuario}
-                    area={9}
-                />
-                <ModalRadixUI
-                    title="Automação"
-                    src={automacao}
-                    area={10}
-                />
-                <ModalRadixUI
-                    title="Eletrônica"
-                    src={eletronica}
-                    area={11}
-                />
-                <ModalRadixUI
-                    title="Quimica"
-                    src={quimica}
-                    area={12}
-                />                  */}
         </div>
     )
 }
