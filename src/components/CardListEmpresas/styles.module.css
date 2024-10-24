@@ -1,8 +1,9 @@
 ﻿.card {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
- border: 1px solid var(--black);
- padding: 2rem;
+   border: 1px solid var(--black);
+   padding: 2rem;
+   justify-items: center;
 }
 .subCard {
    display: flex;
@@ -24,8 +25,17 @@
    .card {
       padding: 1rem;
       grid-template-columns: repeat(2, 1fr);
+      
    }
    .subModalRadix {
       flex-direction: column;
+   }
+}
+
+@media(max-width: 550px) {
+   .card {
+      /* padding: 1rem; */
+      grid-template-columns: 1fr;
+      
    }
 }

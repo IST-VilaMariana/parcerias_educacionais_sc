@@ -3,10 +3,11 @@
 }
 .card {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 20px;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
     align-items: center;
-    text-align: end;
+    /* text-align: end; */
     width: 15.625rem;
     height: 5.375rem;
     padding: 1.725rem;
@@ -20,7 +21,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 1.125rem;
-    line-height: 35px;
+    line-height: 25px;
 }
 .card:hover {
     border-bottom: 0.25rem outset var(--gray-500);

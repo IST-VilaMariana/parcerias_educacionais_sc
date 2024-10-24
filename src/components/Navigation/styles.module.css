@@ -20,4 +20,38 @@
 }
 .navigation a:hover {
     background-color: var(--brand-800);
+    color: #fff;
+}
+
+
+@media(max-width: 800px) {
+    .navigation{
+        width: 43.3rem;
+    }
+}
+
+@media(max-width: 630px) {
+    .navigation{
+        width: 37.3rem;
+    }
+}
+
+
+@media(max-width: 530px) {
+    .navigation{
+        width: 33rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .navigation{
+        width: 24rem;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .navigation{
+        width: 20rem;
+    }
 }

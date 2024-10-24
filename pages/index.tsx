@@ -17,25 +17,26 @@ export default function Home() {
         <main>
           <section id="home" className={styles.sectionContainer}>
             <br />
-              <h1>Programa Parcerias Educacionais</h1>
+              <h1>Parcerias estratégicas educacionais</h1>
             <div className={styles.title}>
               <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
               <MenuSocialMedia/>
             </div>
-            <p>O programa <strong>Parcerias Educaionais</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre a 
-            <strong> SENAI SC</strong> e seus parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem 
-            como demonstrar os benefícios em ser um parceiro deste programa.</p>
+            <p>O programa <strong>Gestão de parcerias</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre o <strong>SENAI</strong> e seus futuros parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem como demonstrar os benefícios em ser um parceiro deste programa.</p>
             <Navigation />
-            <p>O programa estabelece os seguintes benefícios:</p>
+            <p>O programa <strong>Gestão de parcerias</strong> estabelece os seguintes benefícios:</p>
             <Carousel />
             <div className={styles.title}>
               <h2>UMA REDE PARA + VALORES</h2>
             </div>
-            <p>O <strong>SENAI SC</strong> já consolidou mais de 65 parcerias em 12 setores da indústria, distribuídos por sua rede. Alguns exemplos de sucesso estão concentrados nas áreas de automobilística, metalmecâncica e etc.</p>
+            <p>O <strong>SENAI</strong> já consolidou mais de <strong>X</strong> parcerias em diversas áreas tecnológicas, contemplando mais de <strong>X</strong> bens, distribuídos por sua rede.</p>
+
+            <p>Alguns exemplos de sucesso estão concentrados nas áreas de automação industrial, automotiva, construção civil, elétrica, logística, manutenção, tecnologia da informação e têxtil, sendo representados por empresas referenciais de mercado.</p>
+
             <div className={styles.title}>
               <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
             </div>
-            <p>Confira a lista de empresas que já são parceiros:</p>
+            <p>Veja a lista de parceiros do <strong>SENAI</strong>:</p>
             <ButtonForHome/>
             <CardListEmpresas />
           </section>
@@ -54,8 +55,10 @@ export default function Home() {
               <h2 id="editais">MODELOS DE PARCERIAS</h2>
             </div>
             <br />
-            <p>O <strong>SENAI SC</strong> estabelece suas parcerias por meio de modelos de negócios que estabelecem contrapartidas, 
-            visando ganhos bilaterais entre os paceiros</p>
+            
+
+            <p>O <strong>SENAI</strong> estabelece suas parcerias por meio de modelos de negócio que estabelecem contrapartidas, visando ganhos bilaterais entre os parceiros.
+            </p>
             <span>I. Tipos de instrumentos jurídicos anteriores à formalização de parcerias:</span>
             <ul>
               <li><div><p>Edital de pacerias</p></div><ButtonDownload endereco_url="url_doarquivo"/></li>
