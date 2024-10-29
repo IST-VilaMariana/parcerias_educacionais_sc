@@ -1,7 +1,6 @@
 ﻿.card {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   border: 1px solid var(--black);
    padding: 2rem;
    justify-items: center;
 }
@@ -15,7 +14,6 @@
 .subModalRadix{
    display: flex;
    flex-direction: row;
-   border: 1px solid var(--black);
    justify-content: center;
    align-items: center;
    margin: 1rem;
