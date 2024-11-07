@@ -73,6 +73,7 @@
 .iconClose {
     width: 2rem;
     height: 2rem;
+    background: var(--brand-300);
 }
 @media(max-width: 1000px){
     .renderContent{

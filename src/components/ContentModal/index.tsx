@@ -14,7 +14,7 @@ interface Empresas {
     escola_responsavel: string;
 }
 
-const empresas_mecanica = list_parceiros.mecanica_metalurgica.map((item : Empresas) => {
+const empresas_automacao_industrial = list_parceiros.automacao_industrial.map((item : Empresas) => {
     return (
         <tr key={item.id}>
             <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
@@ -82,7 +82,7 @@ const empresas_tec_informacao = list_parceiros.tecnologia_informacao.map((item: 
     )
 });
 
-const empresas_refrigeracao = list_parceiros.refrigeracao.map((item: Empresas) => {
+const empresas_manutencao = list_parceiros.manutencao.map((item: Empresas) => {
     return (
         <tr key={item.id}>
             <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
@@ -116,7 +116,7 @@ const empresas_const_civil = list_parceiros.construcao_civil.map((item: Empresas
     )
 });
 
-const empresas_energia = list_parceiros.energia.map((item: Empresas) => {
+const empresas_logistica_transporte = list_parceiros.logistica_transporte.map((item: Empresas) => {
     return (
         <tr key={item.id}>
             <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
@@ -184,7 +184,7 @@ const empresas_automacao = list_parceiros.automacao.map((item: Empresas) => {
     )
 });
 
-const empresas_eletronica = list_parceiros.eletronica.map((item: Empresas) => {
+const empresas_eletrica = list_parceiros.eletrica.map((item: Empresas) => {
     return (
         <tr key={item.id}>
             <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
@@ -222,18 +222,15 @@ export function ContentModal({ area }: ContentModalProps){
 
     function verify_area(area: number){
         return (
-            area === 1 ? empresas_mecanica :
-            area === 2 ? empresas_alimentos :
-            area === 3 ? empresas_plasticos:
-            area === 4 ? empresas_tec_informacao :
-            area === 5 ? empresas_refrigeracao :
-            area === 6 ? empresas_const_civil : 
-            area === 7 ? empresas_energia :
-            area === 8 ? empresas_automotiva :
+            area === 1 ? empresas_automacao :
+            area === 2 ? empresas_automacao_industrial :
+            area === 3 ? empresas_automotiva :
+            area === 4 ? empresas_const_civil : 
+            area === 5 ? empresas_eletrica :
+            area === 6 ? empresas_logistica_transporte :
+            area === 7 ? empresas_manutencao :
+            area === 8 ? empresas_tec_informacao:
             area === 9 ? empresas_textil_vestuario :
-            area === 10 ? empresas_automacao :
-            area === 11 ? empresas_eletronica :
-            area === 12 ? empresas_quimica :
             'no_empresas'
         )
     }

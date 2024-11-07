@@ -1,7 +1,7 @@
 ﻿import * as Dialog from "@radix-ui/react-dialog";
+import icon_close from "../../../public/icons/close_button.svg";
 import Image from "next/image";
 import { useState } from "react";
-import { AiFillCloseCircle } from "react-icons/ai";
 import { ContentModal } from "../ContentModal";
 import style from "./styles.module.css";
 
@@ -27,8 +27,8 @@ export function ModalRadixUI({title, src, area }:ModalProps){
                         <div className={style.container}>
                             <div className={style.headermodal}>
                                 <span>{title}</span>
-                                <Dialog.Close onClick={() => setIsOpen(false)}>
-                                    <AiFillCloseCircle className={style.iconClose} />
+                                <Dialog.Close onClick={() => setIsOpen(false)} style={{ background: 'transparent', border: 'none'}}>
+                                    <Image src={icon_close} className={style.iconClose} alt=''/>
                                 </Dialog.Close>
                             </div>
                         </div>                    

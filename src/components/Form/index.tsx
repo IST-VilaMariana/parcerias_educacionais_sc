@@ -4,7 +4,7 @@ export function Form(){
     return (
         <iframe
             className={styles.formIframe}
-            src="https://forms.office.com/r/z7m0HwxyUm?embed=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScvT6ShIkwPm0ehrWjytT2sr7433nt-mviVNALiMV7_7vwjTg/viewform?usp=sharing"
             title="formulário de inscrição"
             allowFullScreen
         >

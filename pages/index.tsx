@@ -22,30 +22,28 @@ export default function Home() {
               <h2>SOBRE O PROGRAMA DE PARCERIAS</h2>
               <MenuSocialMedia/>
             </div>
-            <p>O programa <strong>Gestão de parcerias</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre o <strong>SENAI</strong> e seus futuros parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem como demonstrar os benefícios em ser um parceiro deste programa.</p>
+            <p>O programa de <strong>parcerias estratégicas educacionais</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre o <strong>SENAI SC</strong> e seus futuros parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem como demonstrar os benefícios em ser um parceiro deste programa.</p>
             <Navigation />
-            <p>O programa <strong>Gestão de parcerias</strong> estabelece os seguintes benefícios:</p>
+            <p>O programa de <strong>parcerias estratégicas educacionais</strong> estabelece os seguintes benefícios:</p>
             <Carousel />
+            <ButtonForHome/>
             <div className={styles.title}>
               <h2>UMA REDE PARA + VALORES</h2>
             </div>
-            <p>O <strong>SENAI</strong> já consolidou mais de <strong>X</strong> parcerias em diversas áreas tecnológicas, contemplando mais de <strong>X</strong> bens, distribuídos por sua rede.</p>
+            <p>O <strong>SENAI SC</strong> já consolidou mais de <strong>X</strong> parcerias em diversas áreas tecnológicas, contemplando mais de <strong>X</strong> bens, distribuídos por sua rede.</p>
 
             <p>Alguns exemplos de sucesso estão concentrados nas áreas de automação industrial, automotiva, construção civil, elétrica, logística, manutenção, tecnologia da informação e têxtil, sendo representados por empresas referenciais de mercado.</p>
 
             <div className={styles.title}>
               <h2>EMPRESAS QUE JÁ FAZEM PARTE</h2>
             </div>
-            <p>Veja a lista de parceiros do <strong>SENAI</strong>:</p>
-            <ButtonForHome/>
+            <p>Veja a lista de parceiros do <strong>SENAI SC</strong>:</p>
             <CardListEmpresas />
           </section>
           <section className={styles.sectionContainer}>
-            <br />
             <div className={styles.title}>
               <h2 id="depoimentos">DEPOIMENTOS</h2>
             </div>
-            <br />
             <p>Conheça o pragrama pelas palavras de quem já faz parte da nossa rede.</p>
             <br />
             <SliderShowVideo />
@@ -54,10 +52,8 @@ export default function Home() {
             <div className={styles.title}>
               <h2 id="editais">MODELOS DE PARCERIAS</h2>
             </div>
-            <br />
-            
-
-            <p>O <strong>SENAI</strong> estabelece suas parcerias por meio de modelos de negócio que estabelecem contrapartidas, visando ganhos bilaterais entre os parceiros.
+            <br />         
+            <p>O <strong>SENAI SC</strong> estabelece suas parcerias por meio de modelos de negócio que estabelecem contrapartidas, visando ganhos bilaterais entre os parceiros.
             </p>
             <span>I. Tipos de instrumentos jurídicos anteriores à formalização de parcerias:</span>
             <ul>
@@ -77,9 +73,7 @@ export default function Home() {
             <div className={styles.title}>
               <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
             </div>
-            <br />
             <p>Caso sua empresa esteja interessada em se tornar um parceiro do <strong>SENAI SC</strong></p>
-            <br />
             <Form />
           </section>
         </main>      

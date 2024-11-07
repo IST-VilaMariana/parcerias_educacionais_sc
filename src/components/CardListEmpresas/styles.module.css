@@ -1,7 +1,7 @@
 ﻿.card {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   padding: 2rem;
+   padding: 0.5rem;
    justify-items: center;
 }
 .subCard {
