@@ -45,14 +45,12 @@ export default function Home() {
               <h2 id="depoimentos">DEPOIMENTOS</h2>
             </div>
             <p>Conheça o pragrama pelas palavras de quem já faz parte da nossa rede.</p>
-            <br />
             <SliderShowVideo />
           </section>
           <section className={styles.sectionContainer}>
             <div className={styles.title}>
               <h2 id="editais">MODELOS DE PARCERIAS</h2>
             </div>
-            <br />         
             <p>O <strong>SENAI SC</strong> estabelece suas parcerias por meio de modelos de negócio que estabelecem contrapartidas, visando ganhos bilaterais entre os parceiros.
             </p>
             <span>I. Tipos de instrumentos jurídicos anteriores à formalização de parcerias:</span>

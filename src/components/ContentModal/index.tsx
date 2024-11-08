@@ -31,40 +31,6 @@ const empresas_automacao_industrial = list_parceiros.automacao_industrial.map((i
     )
 });
 
-const empresas_alimentos = list_parceiros.alimentos.map((item: Empresas) => {
-    return (
-        <tr key={item.id}>
-            <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
-                { item.icon_empresa ? (
-                    <img src={item.icon_empresa} className={styles.icon} />
-                    ) : (
-                    <FaIndustry className={styles.icon} />
-                    )
-                }
-                <div style={{'margin': '1rem'}}>{item.empresa}</div>
-            </td>
-            <td>{item.escola_responsavel}</td>
-        </tr>
-    )
-});
-
-const empresas_plasticos = list_parceiros.plasticos.map((item: Empresas) => {
-    return (
-        <tr key={item.id}>
-            <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
-                { item.icon_empresa ? (
-                    <img src={item.icon_empresa} className={styles.icon} />
-                    ) : (
-                    <FaIndustry className={styles.icon} />
-                    )
-                }
-                <div style={{'margin': '1rem'}}>{item.empresa}</div>
-            </td>
-            <td>{item.escola_responsavel}</td>
-        </tr>
-    )
-});
-
 const empresas_tec_informacao = list_parceiros.tecnologia_informacao.map((item: Empresas) => {
     return (
         <tr key={item.id}>
@@ -200,23 +166,6 @@ const empresas_eletrica = list_parceiros.eletrica.map((item: Empresas) => {
         </tr>
     )
 });
-
-const empresas_quimica = list_parceiros.quimica.map((item: Empresas) => {
-    return (
-        <tr key={item.id}>
-            <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
-                { item.icon_empresa ? (
-                    <img src={item.icon_empresa} className={styles.icon} />
-                    ) : (
-                    <FaIndustry className={styles.icon} />
-                    )
-                }
-                <div style={{'margin': '1rem'}}>{item.empresa}</div>
-            </td>
-            <td>{item.escola_responsavel}</td>
-        </tr>
-    )
-})
 
 export function ContentModal({ area }: ContentModalProps){
 
