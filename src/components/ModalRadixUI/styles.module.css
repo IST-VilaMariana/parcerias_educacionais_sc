@@ -48,7 +48,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: auto;
+    width: 63rem;
     height: auto;
 }
 .headermodal{
@@ -60,6 +60,7 @@
     width: 75rem;
     height: auto;
     background: var(--brand-300);
+    border-radius: 1rem 1rem 0 0;
 }
 
 .headermodal span {
@@ -83,12 +84,15 @@
         width: 43.75rem;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 500px){
     .renderContent{
         align-items: flex-start;
         width: auto;
         height: auto;
         overflow: scroll;
+    }
+    .headermodal {
+        width: 31rem;
     }
     .card {
         text-align: center;

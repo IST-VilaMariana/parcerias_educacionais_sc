@@ -149,16 +149,16 @@ onde
     const empresas_nova_area_tecnologia = list_parceiros.area_tecnologica.map((item) => {
     return (
         <tr key={item.id}>
-            <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
+            <td className={styles.table_line_data}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
                     <FaIndustry className={styles.icon} />
                     )
                 }
-                <div style={{'margin': '1rem'}}>{item.empresa}</div>
+                <span className={styles.description_empresa}>{item.empresa}</span>
             </td>
-            <td>{item.escola_responsavel}</td>
+            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
