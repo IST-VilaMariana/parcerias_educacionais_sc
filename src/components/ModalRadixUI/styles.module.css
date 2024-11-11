@@ -4,10 +4,7 @@
 .card {
     display: flex;
     gap: 20px;
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     align-items: center;
-    /* text-align: end; */
     width: 15.625rem;
     height: 5.375rem;
     padding: 1.725rem;
