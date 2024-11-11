@@ -24,8 +24,8 @@ export function Navigation(){
             </a>
 
             <a 
-                href="#seja_parceiro"
-                aria-label='Preencha nosso formulário'
+                href="https://sc.senai.br/sobre-senai"
+                aria-label='Conheça a Senai SC'
             >
                 APRESENTAÇÃO INSTITUCIONAL
             </a>

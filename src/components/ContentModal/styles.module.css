@@ -7,7 +7,6 @@
     border-radius: 0 0 1rem 1rem;
 }
 .table {
-    border: 1px solid;
     width: 60rem;
     height: auto;
     overflow: auto;
@@ -59,7 +58,6 @@
         height: 6rem;
     }
     .description_empresa {
-        border: 1px solid;
         margin: 2rem 0 2rem 1rem;
     }
 }
