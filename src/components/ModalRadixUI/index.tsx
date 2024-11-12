@@ -21,7 +21,7 @@ export function ModalRadixUI({title, src, area }:ModalProps){
                 <Image src={src} alt='image' width={40} height={40}/>
                 <p>{title}</p>
             </Dialog.Trigger>
-            <Dialog.Portal className={style.container_portal}>
+            <Dialog.Portal>
                 <Dialog.Overlay className={style.modalStyle}>
                     <Dialog.Content className={style.renderContent}>                    
                         <div className={style.container}>
