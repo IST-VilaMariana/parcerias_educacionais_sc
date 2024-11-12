@@ -2,12 +2,11 @@
 
 export function Form(){
     return (
-        <iframe
+        <object
             className={styles.formIframe}
-            src="https://docs.google.com/forms/d/e/1FAIpQLScvT6ShIkwPm0ehrWjytT2sr7433nt-mviVNALiMV7_7vwjTg/viewform?usp=sharing"
+            data="https://docs.google.com/forms/d/e/1FAIpQLScvT6ShIkwPm0ehrWjytT2sr7433nt-mviVNALiMV7_7vwjTg/viewform?usp=sharing"
             title="formulário de inscrição"
-            allowFullScreen
         >
-        </iframe>
+        </object>
     )
 }
