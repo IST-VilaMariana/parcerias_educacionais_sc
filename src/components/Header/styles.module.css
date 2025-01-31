@@ -1,10 +1,19 @@
-﻿.headerContent{
+﻿.headerContent {
     background: var(--brand-300);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
     padding: 1rem 8.125rem;
+}
+.headerContent span {
+    color: var(--white);
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--white);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .header_itens {
     color: var(--white);
@@ -14,13 +23,9 @@
     padding: var(--none, 0rem);
     gap: 0.5rem;
 }
-.header_itens span {
-    padding: 0.25rem 0.75rem;
-    border: 1px solid var(--white);
-    border-radius: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+@media (max-width: 450px){
+    .headerContent {
+        padding: 1rem;
+    }
 }
