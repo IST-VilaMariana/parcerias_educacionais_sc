@@ -53,10 +53,10 @@
   line-height: normal;
 }
   
-@media(max-width: 450px){
+@media(max-width: 500px){
   .sectionContainer p {    
-    text-align: justify;
     padding: 0.2rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }  
 }

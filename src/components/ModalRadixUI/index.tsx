@@ -31,8 +31,8 @@ export function ModalRadixUI({title, src, area }:ModalProps){
                                     <Image src={icon_close} className={style.iconClose} alt=''/>
                                 </Dialog.Close>
                             </div>
+                            <ContentModal key={area} area={area}/>                        
                         </div>                    
-                        <ContentModal key={area} area={area}/>                        
                     </Dialog.Content>
                 </Dialog.Overlay>
             </Dialog.Portal>

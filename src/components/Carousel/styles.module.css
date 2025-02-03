@@ -1,9 +1,8 @@
 ﻿.slider {    
     display: flex;
-    align-items: center;
     justify-content: space-between; 
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .carousel{
     cursor: grab;
@@ -48,19 +47,16 @@
     height: 4rem;
     position: absolute;
 }
-@media(max-width: 450px){
+@media(max-width: 500px){
     .slider{        
-        min-height: auto;
+        /*min-height: auto;*/ 
+        gap: 0.2rem
     }
     .carousel{
         overflow-x: scroll;
     }
-    .inner {
-        text-align: center;    
-    }
     .item{
-        min-width: 22rem;
-        padding: 0.70rem;
+        min-width: 24rem;
     }
     .item p {margin-top: 1rem};
 }

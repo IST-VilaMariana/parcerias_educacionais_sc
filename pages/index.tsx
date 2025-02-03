@@ -24,7 +24,9 @@ export default function Home() {
             </div>
             <p>O programa de <strong>parcerias estratégicas educacionais</strong> foi criado com o intuito de estabelecer um canal direto de comunicação entre o <strong>SENAI SC</strong> e seus futuros parceiros, apresentar as diretrizes e modelos para consecução de novas parcerias, bem como demonstrar os benefícios em ser um parceiro deste programa.</p>
             <Navigation />
+            <br/>
             <p>O programa de <strong>parcerias estratégicas educacionais</strong> estabelece os seguintes benefícios:</p>
+            <br/>
             <Carousel />
             <ButtonForHome/>
             <div className={styles.title}>
@@ -45,6 +47,7 @@ export default function Home() {
               <h2 id="depoimentos">DEPOIMENTOS</h2>
             </div>
             <p>Conheça o pragrama pelas palavras de quem já faz parte da nossa rede.</p>
+            <br />
             <SliderShowVideo />
           </section>
           <section className={styles.sectionContainer}>
@@ -72,6 +75,7 @@ export default function Home() {
               <h2 id="seja_parceiro">COMO FAZER PARTE</h2>
             </div>
             <p>Caso sua empresa esteja interessada em se tornar um parceiro do <strong>SENAI SC</strong></p>
+            <br />
             <Form />
           </section>
         </main>      

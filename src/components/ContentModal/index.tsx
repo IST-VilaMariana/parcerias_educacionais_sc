@@ -17,25 +17,24 @@ interface Empresas {
 
 const empresas_automacao_industrial = list_parceiros.automacao_industrial.map((item : Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
                     <FaIndustry className={styles.icon} />
                     )
                 }
-                <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.empresa} - {item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_tec_informacao = list_parceiros.tecnologia_informacao.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}> 
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -43,16 +42,16 @@ const empresas_tec_informacao = list_parceiros.tecnologia_informacao.map((item: 
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_manutencao = list_parceiros.manutencao.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -60,16 +59,16 @@ const empresas_manutencao = list_parceiros.manutencao.map((item: Empresas) => {
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_const_civil = list_parceiros.construcao_civil.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -77,16 +76,16 @@ const empresas_const_civil = list_parceiros.construcao_civil.map((item: Empresas
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_logistica_transporte = list_parceiros.logistica_transporte.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -94,16 +93,16 @@ const empresas_logistica_transporte = list_parceiros.logistica_transporte.map((i
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_automotiva = list_parceiros.automotiva.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -111,16 +110,16 @@ const empresas_automotiva = list_parceiros.automotiva.map((item: Empresas) => {
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_textil_vestuario = list_parceiros.textil_vestuario.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -128,16 +127,16 @@ const empresas_textil_vestuario = list_parceiros.textil_vestuario.map((item: Emp
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_automacao = list_parceiros.automacao.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -145,16 +144,16 @@ const empresas_automacao = list_parceiros.automacao.map((item: Empresas) => {
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
 
 const empresas_eletrica = list_parceiros.eletrica.map((item: Empresas) => {
     return (
-        <tr key={item.id}>
-            <td className={styles.table_line_data}>
+        <tr key={item.id} className={styles.table_line_data}>
+            <td className={styles.table_dt}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
@@ -162,8 +161,8 @@ const empresas_eletrica = list_parceiros.eletrica.map((item: Empresas) => {
                     )
                 }
                 <span className={styles.description_empresa}>{item.empresa}</span>
+                <span className={styles.description_empresa}>{item.escola_responsavel}</span>
             </td>
-            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
@@ -185,27 +184,20 @@ export function ContentModal({ area }: ContentModalProps){
         )
     }
     return (
-        <div className={styles.container_table}>
-            <table className={styles.table}>
-                <thead>
-                    <tr>
-                        <th >
-                            <Dialog.Title className={styles.table_head}>
-                                Empresa
-                            </Dialog.Title>
-                        </th>
-                        <th>
-                            <Dialog.Title   className={styles.table_head}>
-                                Escola Responsável
-                            </Dialog.Title>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {verify_area(area)}
-                </tbody>
-            </table>
-        </div>
-        
+        <table className={styles.table}>
+            <thead>
+                <tr className={styles.table_line_data}>
+                    <th>
+                        <Dialog.Title className={styles.table_head}>
+                            Empresa -
+                            Escola Responsável
+                        </Dialog.Title>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {verify_area(area)}
+            </tbody>
+        </table>        
     )
 }
