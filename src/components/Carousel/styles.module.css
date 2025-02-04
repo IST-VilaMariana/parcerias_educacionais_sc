@@ -1,4 +1,8 @@
-﻿.slider {    
+﻿.container_slider {
+    display: flex;
+    flex-direction: column;
+}
+.slider {    
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -47,16 +51,36 @@
     height: 4rem;
     position: absolute;
 }
+.container_slider_indicator {
+    display: none;
+}
+.slider_indicator {
+    display: inline-block;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    height: 0.5rem;
+    width: 0.5rem;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+.slider_indicator_active {
+    background: var(--brand-700);
+}
 @media(max-width: 500px){
-    .slider{        
+    .slider {        
         /*min-height: auto;*/ 
         gap: 0.2rem
     }
-    .carousel{
+    .carousel {
         overflow-x: scroll;
     }
-    .item{
+    .item {
         min-width: 24rem;
     }
-    .item p {margin-top: 1rem};
+    .item p { margin-top: 1rem 
+    }
+    .container_slider_indicator {
+        display: flex;
+        justify-content: center;
+    }
 }

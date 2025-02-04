@@ -38,18 +38,24 @@ const questionsAnswers = [
 export function Carousel(){
   const carousel = useRef(null);
   const [ widthSlider, setWidthSlider ] = useState(0);
+  const [ positionSlider, setPositionSlider ] = useState(false)
   
   let boxSlider = carousel.current;
       
   function nextSlide(){
     let width = boxSlider.clientWidth;
     boxSlider.scrollLeft = boxSlider.scrollLeft + width;
-    console.log(width);
+    console.log(`in nextSlide ${width}`);
   }
 
   function prevSlide(){
     let width = boxSlider.clientWidth;
     boxSlider.scrollLeft = boxSlider.scrollLeft - width;
+    console.log(`in prevSlide ${width}`)
+  }
+
+  function handlePagination(){
+    setPositionSlider(true)
   }
   
   useEffect(() => {
@@ -57,35 +63,46 @@ export function Carousel(){
   },[]);
 
   return(
-    <div className={styles.slider}>
-      <ButtonPressLefth prevSlide={prevSlide}/>
-        <motion.div          
-          ref={ carousel }
-          className={styles.carousel}
-          whileTap={{ cursor: 'grabbing'}}
-        >
-          <motion.div
-            className={styles.inner}
-            drag='x'
-            dragConstraints={{ right: 0, left: -widthSlider }}
-            initial={{ x: 100 }}
-            animate={{ x: 0 }}
-            transition={{ type: 'spring', bounce: 0.2, delay: 0.7, duration: 1}}
-            
+    <div className={styles.container_slider}>
+      <div className={styles.slider}>
+        <ButtonPressLefth prevSlide={prevSlide}/>
+          <motion.div          
+            ref={ carousel }
+            className={styles.carousel}
+            whileTap={{ cursor: 'grabbing'}}
           >
-            {questionsAnswers.map(item => (
-              <motion.div                          
-                key={item.question}
-                className={styles.item}
-              >
-                <div className={styles.bloco}><span>{item.question}</span>
-                <p>{item.answer}</p></div>
-              </motion.div>
-            ))}
+            <motion.div
+              className={styles.inner}
+              drag='x'
+              dragConstraints={{ right: 0, left: -widthSlider }}
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ type: 'spring', bounce: 0.2, delay: 0.7, duration: 1}}
+
+            >
+              {questionsAnswers.map(item => (
+                <motion.div                          
+                  key={item.question}
+                  className={styles.item}
+                >
+                  <div className={styles.bloco}><span>{item.question}</span>
+                  <p>{item.answer}</p></div>
+                </motion.div>
+              ))}
+            </motion.div>
+            
           </motion.div>
-          
-        </motion.div>
-        <ButtonPressRight nextSlide={nextSlide} />
-    </div>       
+          <ButtonPressRight nextSlide={nextSlide} />
+      </div>
+      <div className={styles.container_slider_indicator}>
+        { questionsAnswers.map((item) => 
+          <span
+            key={item.answer}
+            className={ positionSlider ? `${styles.slider_indicator} ${styles.slider_indicator_active}` : `${styles.slider_indicator}`}
+          ></span>
+          )
+        }
+      </div> 
+    </div>     
   )
 }

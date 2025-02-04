@@ -4,3 +4,8 @@
     border: none;
     background: var(--white);
 }
+@media (max-width: 500px){
+    .iconButton {
+        display: none;
+    }
+}
