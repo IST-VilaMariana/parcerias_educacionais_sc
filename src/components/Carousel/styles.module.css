@@ -65,6 +65,7 @@
 }
 .slider_indicator_active {
     background: var(--brand-700);
+    transition: transform 0.3s ease-in-out;
 }
 @media(max-width: 500px){
     .slider {        
@@ -73,6 +74,7 @@
     }
     .carousel {
         overflow-x: scroll;
+        scroll-behavior: smooth;
     }
     .item {
         min-width: 24rem;
