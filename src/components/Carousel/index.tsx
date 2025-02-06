@@ -32,108 +32,97 @@ const questionsAnswers = [
   {
     question: 'Capilaridade da Rede SENAI SC',
     answer: 'Uma parceria consolidada com uma Unidade Operacional do SENAI SC posibilita sua disseminação pela rede no estado, trazendo mais vantagens para as empresas parceiras.'
-  }
+  }    
 ];
 
 export function Carousel() {
   const carousel = useRef(null);
   const [widthSlider, setWidthSlider] = useState(0);
-  const [positionSlider, setPositionSlider] = useState(false)
-
   const [activeIndex, setActiveIndex] = useState(0);
 
-  let boxSlider = carousel.current;
+  useEffect(() => {
+    if (carousel.current) {
+      setWidthSlider(carousel.current.scrollWidth - carousel.current.offsetWidth);
+    }
+  }, []);
 
-  function nextSlide() {
-    // let width = boxSlider.clientWidth;
-    // boxSlider.scrollLeft = boxSlider.scrollLeft + width;
-    // console.log(`in nextSlide ${width}`);
+  useEffect(() => {
+    const boxSlider = carousel.current;
 
     if (!boxSlider) return;
 
-    let width = boxSlider.clientWidth;
-    let newScrollLeft = boxSlider.scrollLeft + width;
+    const handleScroll = () => {
+      const scrollLeft = boxSlider.scrollLeft;
+      const width = boxSlider.clientWidth;
+      const index = Math.round(scrollLeft / width);
+      const maxIndex = questionsAnswers.length - 1;
+      setActiveIndex(Math.min(index, maxIndex));
+    };
 
-    boxSlider.scrollTo({ left: newScrollLeft, behavior: "smooth" });
+    boxSlider.addEventListener('scroll', handleScroll);
 
-    // Atualiza o índice do bullet
-    setActiveIndex((prev) => Math.min(prev + 1, questionsAnswers.length - 1));
+    return () => {
+      boxSlider.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  function nextSlide() {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    const width = boxSlider.clientWidth;
+    const maxScroll = boxSlider.scrollWidth - boxSlider.clientWidth;
+
+    if (boxSlider.scrollLeft + width <= maxScroll) {
+      boxSlider.scrollLeft = boxSlider.scrollLeft + width;
+    }
   }
 
   function prevSlide() {
-    // let width = boxSlider.clientWidth;
-    // boxSlider.scrollLeft = boxSlider.scrollLeft - width;
-    // console.log(`in prevSlide ${width}`)
-
+    const boxSlider = carousel.current;
     if (!boxSlider) return;
 
-    let width = boxSlider.clientWidth;
-    let newScrollLeft = boxSlider.scrollLeft - width;
+    const width = boxSlider.clientWidth;
 
-    boxSlider.scrollTo({ left: newScrollLeft, behavior: "smooth" });
-
-    // Atualiza o índice do bullet
-    setActiveIndex((prev) => Math.max(prev - 1, 0));
+    if (boxSlider.scrollLeft - width >= 0) {
+      boxSlider.scrollLeft = boxSlider.scrollLeft - width;
+    }
   }
 
-  function handlePagination() {
-    setPositionSlider(true)
+  function goToSlide(index) {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    const width = boxSlider.clientWidth;
+    const maxIndex = questionsAnswers.length - 1;
+
+    if (index >= 0 && index <= maxIndex) {
+      boxSlider.scrollLeft = width * index;
+    }
   }
-
-  useEffect(() => {
-
-    if (carousel.current) {
-      setWidthSlider(carousel.current.scrollWidth - carousel.current.clientWidth);
-    }
-
-    const handleScroll = () => {
-      if (!carousel.current) return;
-
-      const scrollLeft = carousel.current.scrollLeft;
-      const totalWidth = carousel.current.scrollWidth - carousel.current.clientWidth;
-
-      // Evita erro de divisão por zero
-      if (totalWidth === 0) return;
-
-      // Calcula o índice ativo
-      const index = Math.round((scrollLeft / totalWidth) * (questionsAnswers.length - 1));
-      setActiveIndex(index);
-    };
-
-    const carouselRef = carousel.current;
-    if (carouselRef) {
-      carouselRef.addEventListener("scroll", handleScroll);
-    }
-
-    return () => {
-      if (carouselRef) {
-        carouselRef.removeEventListener("scroll", handleScroll);
-      }
-    };
-  }, []);
 
   return (
     <div className={styles.container_slider}>
       <div className={styles.slider}>
         <ButtonPressLefth prevSlide={prevSlide} />
-
         <motion.div
           ref={carousel}
           className={styles.carousel}
           whileTap={{ cursor: 'grabbing' }}
         >
-
-
           <motion.div
             className={styles.inner}
-            drag="x"
+            drag='x'
             dragConstraints={{ right: 0, left: -widthSlider }}
             initial={{ x: 100 }}
             animate={{ x: 0 }}
-            transition={{ type: "spring", bounce: 0.2, delay: 0.7, duration: 1 }}
+            transition={{ type: 'spring', bounce: 0.2, delay: 0.7, duration: 1 }}
           >
-            {questionsAnswers.map(item => (
-              <motion.div key={item.question} className={styles.item}>
+            {questionsAnswers.map((item, index) => (
+              <motion.div
+                key={item.question}
+                className={styles.item}
+              >
                 <div className={styles.bloco}>
                   <span>{item.question}</span>
                   <p>{item.answer}</p>
@@ -142,34 +131,17 @@ export function Carousel() {
             ))}
           </motion.div>
         </motion.div>
-
         <ButtonPressRight nextSlide={nextSlide} />
       </div>
-
       <div className={styles.container_slider_indicator}>
-        {questionsAnswers.map((_, index) => {
-          const isActive = Math.round(activeIndex) === index;
-
-          return (
-            <span
-              key={index}
-              onClick={() => {
-                if (carousel.current) {
-                  const width = carousel.current.clientWidth;
-                  carousel.current.scrollTo({ left: index * width, behavior: "smooth" });
-                  setActiveIndex(index);
-                }
-              }}
-              className={`${styles.slider_indicator} ${isActive ? styles.slider_indicator_active : ''}`}
-              style={{
-                width: isActive ? "1rem" : "0.5rem",
-                backgroundColor: isActive ? "var(--brand-700)" : "gray",
-                transition: "width 0.3s ease-in-out, background-color 0.3s ease-in-out"
-              }}
-            ></span>
-          );
-        })}
+        {questionsAnswers.map((item, index) => (
+          <span
+            key={item.answer}
+            className={index === activeIndex ? `${styles.slider_indicator} ${styles.slider_indicator_active}` : `${styles.slider_indicator}`}
+            onClick={() => goToSlide(index)}
+          ></span>
+        ))}
       </div>
     </div>
-  )
+  );
 }

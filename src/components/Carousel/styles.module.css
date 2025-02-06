@@ -65,16 +65,23 @@
 }
 .slider_indicator_active {
     background: var(--brand-700);
-    transition: transform 0.3s ease-in-out;
 }
 @media(max-width: 500px){
     .slider {        
         /*min-height: auto;*/ 
         gap: 0.2rem
     }
-    .carousel {
+    /* .carousel {
         overflow-x: scroll;
-        scroll-behavior: smooth;
+    } */
+
+    .carousel {
+        cursor: grab;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        scroll-behavior: smooth; /* Adiciona transição suave */
     }
     .item {
         min-width: 24rem;
