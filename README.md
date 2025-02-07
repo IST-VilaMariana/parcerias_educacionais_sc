@@ -24,7 +24,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/IST-VilaMariana/mais_parceiros_sc.git
+git clone https://github.com/IST-VilaMariana/parcerias_educacionais_sc
 
 ```
 2. Instale as dependências do projeto:
@@ -131,38 +131,34 @@ const questionsAnswers = [
 5. Adcione o seguinte script no retorno da função CardListEmpresas() o seguinte script:
 
 ```jsx
-    <div className={styles.subModalRadix}>
-        <ModalRadixUI
-            title={'titulo'}
-            src={nome_icon}
-            area={identificador}
-        />
-    </div>
+    <ModalRadixUI
+        title={'titulo'}
+        src={nome_icon}
+        area={10}
+    />
 ```
 onde 
 * titulo : substitua pelo que foi delarado no atributo area no item 1
 * nome_icon : troque pelo nome decalarado no item 4
 * identificador : declare um valor posterior aos já declarados anteriormente. Ex.: Se o último for area={9} o posterior deve ser declarado area={10} 
 
-***Atenção***: Cada div só comporta 3 elementos do ModalRadixUI para manter a responsividade
-
 6. Acesse a pasta src/components/ContentModal/index.tsx
 
-7. Após a variável `empresas_quimica`, adcione o seguinte código: 
+7. Após a variável `empresas_eletrica`, adcione o seguinte código: 
 ```jsx
     const empresas_nova_area_tecnologia = list_parceiros.area_tecnologica.map((item) => {
     return (
         <tr key={item.id}>
-            <td style={{'display':'flex', 'justifyContent': 'flex-start'}}>
+            <td className={styles.table_line_data}>
                 { item.icon_empresa ? (
                     <img src={item.icon_empresa} className={styles.icon} />
                     ) : (
                     <FaIndustry className={styles.icon} />
                     )
                 }
-                <div style={{'margin': '1rem'}}>{item.empresa}</div>
+                <span className={styles.description_empresa}>{item.empresa}</span>
             </td>
-            <td>{item.escola_responsavel}</td>
+            <td className={styles.description_empresa}>{item.escola_responsavel}</td>
         </tr>
     )
 });
@@ -189,7 +185,7 @@ onde
 ```bash
     {
         src : 'url_do_video',
-        title : '+Parceiros – Firjan Senai – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
+        title : 'Senai SC – Depoimento de quem já faz parte da nossa rede | Nome da Empresa',
         company: 'Nome da Empresa'
     }
 ```
@@ -202,11 +198,11 @@ Para os vídeos que são provindos do Youtube não esquecer do `/embed/` para qu
 ### Arquivos para Download
 1. Acesse pages/index.tsx
 
-2. Na linha 62 substitua todos os valor da variável "endereco_url" para a url do arquivo em pdf
+2. Na linha 58 substitua todos os valor da variável "endereco_url" para a url do arquivo em pdf
 
 ```jsx
     <ButtonDownload endereco_url={"url_do_arquivo"}/>
 ```
 ### Formulário
 
-O formulário é atualizado pela plataforma [Microsof Forms](https://www.microsoft365.com/launch/forms?auth=2) realize o login pelo email : parcerias.educaionais@sc.senai.br
+O formulário é atualizado pela plataforma [Google Forms](https://workspace.google.com/intl/pt-BR/lp/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1707806-LUAC0011908&utm_content=text-ad-none-any-DEV_c-CRE_666246535618-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt-Forms-KWID_43700057676889044-kwd-10647024857&utm_term=KW_google%20forms-ST_google%20forms&gad_source=1&gclid=Cj0KCQiAire5BhCNARIsAM53K1hk9-O6AFlWyhcqe5CAngb4ejR5_oTQuwBgAvwOX9HKPUQIODbq8ZsaAj2REALw_wcB&gclsrc=aw.ds) realize o login pelo email : parcerias.educaionais@sc.senai.br

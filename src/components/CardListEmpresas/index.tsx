@@ -1,16 +1,4 @@
 ﻿import mechanic from "../../../public/images/icons_parceiros/fluent-emoji-high-contrast_man-mechanic.svg";
-// import fork from "../../../public/images/icons_parceiros/fluent_food-16-filled.svg";
-// import plastic from "../../../public/images/icons_parceiros/fluent_drink-bottle-20-filled.svg";
-// import computer from "../../../public/images/icons_parceiros/mdi_desktop-classic.svg";
-// import automotiva from "../../../public/images/icons_parceiros/bxs_car-mechanic.svg";
-// import climatizacao from "../../../public/images/icons_parceiros/icon-park-outline_air-conditioning.svg";
-// import construction from "../../../public/images/icons_parceiros/construction-svgrepo-com.svg";
-// import energy from "../../../public/images/icons_parceiros/energy-svgrepo-com.svg";
-// import vestuario from "../../../public/images/icons_parceiros/map_clothing-store.svg";
-// import automacao from "../../../public/images/icons_parceiros/carbon_ibm-cloud-pak-network-automation.svg";
-// import eletronica from "../../../public/images/icons_parceiros/eletronic_icon.svg";
-// import quimica from "../../../public/images/icons_parceiros/carbon_chemistry.svg";
-
 import Automacao from "../../../public/images/icons_parceiros/Automacao.svg";
 import Automacao_industrial from "../../../public/images/icons_parceiros/Automacao-industrial.svg";
 import Automotiva from "../../../public/images/icons_parceiros/Automotivo.svg";

@@ -1,46 +1,18 @@
 ﻿{    
-    "mecanica_metalurgica" : [
+    "automacao_industrial" : [
         { 
             "id": "b22d90a3-c8e6-4354-a6e0-6953e4871859",
-            "area": "Mecância e Metalurgica",    
-            "empresa":  "Cimep (Brasilata)",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Barra do Piraí"
+            "area": "Automação Industrial",    
+            "empresa":  "Frame Madeiras Especiais Ltda",
+            "icon_empresa":"/icons_parceiros/icon_frame_madereiras.png",
+            "escola_responsavel": "Senai/SC - Direção Regional"
         },
         { 
             "id":"022fb809-8190-4827-9512-c1460e2d7e2d",
-            "area": "Mecância e Metalurgica",   
-            "empresa":  "Ge Celma",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Petrópolis"
-        },
-        {
-            "id": "033ce06f-3a39-4415-9b15-2128d1ee9053",
-            "area": "Mecância e Metalurgica",
-            "empresa": "Ternium",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Itaguaí"
-        },
-        {
-            "id": "3631e359-9360-4706-b32f-8892d0061562",
-            "area": "Mecância e Metalurgica",
-            "empresa": "Gerdau",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Barra do Piraí"
-        },
-        {
-            "id": "e9089183-f004-499d-b7b6-ac2f56ab1b05",
-            "area": "Mecância e Metalurgica",
-            "empresa": "Empresa Itaguaí",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Vila Isabel"
-        },
-        {
-            "id": "fe0dc938-184e-45e1-be1b-87b8232b1d20",
-            "area": "Mecância e Metalurgica",
-            "empresa": "Braços",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Barra do Piarí"
+            "area": "Automação Industrial",   
+            "empresa":  "Indústria e Comércio de Móveis Henn Ltda",
+            "icon_empresa": "/icons_parceiros/icon_henn.png",
+            "escola_responsavel": "Senai/SC - Itapiranga"
         }
         
     ],
@@ -48,266 +20,147 @@
         {
             "id": "93689a75-51c6-4f05-bc02-cb67497cf71c",
             "area": "Alimentos e Bebidas",
-            "empresa": "Indústrias Granfino S/A",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Nova Iguaçu"
+            "escola_responsavel": ""
         },
         {
             "id": "cd3fd8e4-37ea-4310-9fcf-787b40f5d4a8",
             "area": "Alimentos e Bebidas",
-            "empresa": "Moinhos Cruzeiro do Sul S.A",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         },
         {
             "id": "19522c75-1477-4c81-b167-91a6870b42ec",
             "area": "Alimentos e Bebidas",
-            "empresa": "BIO 4",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         },
         {
             "id": "1197bf9c-77d6-4e9b-bc27-51200f7993e3",
             "area": "Alimentos e Bebidas",
-            "empresa": "New Age",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         },
         {
             "id": "229890ff-c23a-441a-bff4-180c8cae5d0d",
             "area": "Alimentos e Bebidas",
-            "empresa": "Science Of Beer",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         },
         {
             "id": "1b1b45ac-15a3-4361-8119-5b73f6c929a5",
             "area": "Alimentos e Bebidas",
-            "empresa": "Cachaça da Quinta",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         },
         {
             "id": "87784865-0204-4db2-9582-e70a891d7ea1",
             "area": "Alimentos e Bebidas",
-            "empresa": "Cooperativa Agrária",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Alimentos, Bebidas e Panificação Tijuca"
+            "escola_responsavel": ""
         }
     ],
     "plasticos" : [
         {
             "id": "6e7598ad-c3ca-435d-ac09-e66118324221",
             "area": "Plásticos",
-            "empresa": "Canetas Compactor",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Nova Iguaçu"
+            "escola_responsavel": ""
         },
         {
             "id": "6e7598ad-c3ca-435d-ac09-e66118324221",
             "area": "Plásticos",
-            "empresa": "Fabricadora de Poliuretano",
+            "empresa": "",
             "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Nova Iguaçu"
+            "escola_responsavel": ""
         }
     ],
     "tecnologia_informacao" : [
         {
             "id": "86a599fb-9f09-4fae-bf94-64e65011a26b",
             "area": "Tecnologia da Informação",
-            "empresa": "Orange",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Petrópolis"
+            "empresa": "Harbor Informática Industrial",
+            "icon_empresa": "/icons_parceiros/icon_harbor.png",
+            "escola_responsavel": "Senai/SC - Direção Regional"
         },
         {
             "id": "63273a20-41c5-427c-8249-16e1e53495da",
             "area": "Tecnologia da Informação",
-            "empresa": "Google",
-            "icon_empresa": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
-            "escola_responsavel": "Centro de Referência Maracanã"
-        },
-        {
-            "id": "f10524fc-439f-4fc6-9241-836eaa613bab",
-            "area": "Tecnologia da Informação",
-            "empresa": "Oracle",
-            "icon_empresa": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/oracle-512.png",
-            "escola_responsavel": "Centro de Referência Maracanã"
-        },
-        {
-            "id": "ebdf9db5-9679-4ccb-89f1-dd2ba1058561",
-            "area": "Tecnologia da Informação",
-            "empresa": "Zerezes",
-            "icon_empresa": "",
-            "escola_responsavel": "Centro de Referência Maracanã"
+            "empresa": "Sisplan Sistemas e Planejamento Ltda",
+            "icon_empresa": "/icons_parceiros/icon_siplan.png",
+            "escola_responsavel": "Senai/SC - Itajaí"
         }
     ],
-    "refrigeracao" : [
+    "manutencao" : [
         {
             "id": "2b6f40b3-1815-4bcb-ad9e-27005f6c3ffd",
-            "area": "Refrigeração e Climatização",
-            "empresa": "Gree",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Benfica"
-        },
-        {
-            "id": "c2c41995-8df3-442c-b9b4-552bf2b6a1d1",
-            "area": "Refrigeração e Climatização",
-            "empresa": "Giz",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Benfica"
-        },
-        {
-            "id": "22509496-17ee-4b13-b913-62d5449a60ed",
-            "area": "Refrigeração e Climatização",
-            "empresa": "Eletrolux",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Benfica"
-        },
-        {
-            "id": "2977b950-4f32-4eb3-9e99-5d7b3c72c8b7",
-            "area": "Refrigeração e Climatização",
-            "empresa": "Full Gauge",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Benfica"
-        },
-        {
-            "id": "a7a6dde3-29f3-4dc8-8c3a-3f8307befacb",
-            "area": "Refrigeração e Climatização",
-            "empresa": "LG Eletronics Do Brasil LTDA",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Vicente de Carvalho"
+            "area": "Manutenção",
+            "empresa": "Temasa Indústria de Móveis Ltda",
+            "icon_empresa": "/icons_parceiros/icon_temasa.png",
+            "escola_responsavel": "Senai/SC - Caçador"
         }
     ],
     "construcao_civil" : [
         {
             "id": "2f4f1211-e11d-4504-89b7-dbcb46f2801a",
             "area": "Construção Civil",
-            "empresa": "Gypsum",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Itaguaí"
-        },
-        {
-            "id": "0d6a6ae1-1cc5-4774-90c2-e091339914cc",
-            "area": "Construção Civil",
-            "empresa": "Knauf",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Nova Friburgo"
-        },
-        {
-            "id": "d426d396-e7e2-4491-88d7-74fdb037c3b9",
-            "area": "Construção Civil",
-            "empresa": "Pedrinco Pedreiras e Industria de Concreto LTDA",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Nova Friburgo e Centro de Referência de Construção - Tijuca"
-        },
-        {
-            "id": "6aa92f16-6598-4751-a34b-3299a8191c95",
-            "area": "Construção Civil",
-            "empresa": "Cidade das Tintas",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Vicente de Carvalho"
+            "empresa": "TQS Informática Ltda",
+            "icon_empresa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-EgobsKZ1lGTy4LMVWHgCsa559rEfiLt4Q&s",
+            "escola_responsavel": "Senai/SC - Concórdia"
         }
     ],
-    "energia" : [
+    "logistica_transporte" : [
         {
             "id": "7803d9c7-2aaa-47fc-8478-f9e90cf18c6f",
-            "area": "Energia e Eletricidade",
-            "empresa":"Macomevap",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
-        },
-        {
-            "id": "230a17c8-c1d1-4386-9c02-4f138dc62057",
-            "area": "Energia e Eletricidade",
-            "empresa":"Centelha",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
-        },
-        {
-            "id": "3681202e-a925-4706-922b-b8cb3006804b",
-            "area": "Energia e Eletricidade",
-            "empresa": "Minipa",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Benfica"
+            "area": "Logística e Transporte",
+            "empresa":"Itag Sistemas Inteligentes Ltda",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel":"Senai/SC - Direção Regional"
         }
     ],
     "automotiva": [
         {
             "id": "c64efec9-d54c-4e3e-9d8f-51908bdda22a",
             "area": "Automotiva",
-            "empresa":"Stellantis",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Rezende"
+            "empresa":"Aero Clube de Santa Catarina",
+            "icon_empresa": "data:image/jpeg;base64,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",
+            "escola_responsavel":"Senai/SC - Direção Regional"
         },
         {
             "id": "07e0e35f-f74b-449a-bf30-90d223cd96bd",
             "area": "Automotiva",
-            "empresa":"Nissan",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Jacarepaguá"
+            "empresa":"Idiada Tecnologia Automotiva Ltda",
+            "icon_empresa": "data:image/jpeg;base64,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",
+            "escola_responsavel":"Senai/SC - Direção Regional"
         },
         {
             "id": "5e1c2f4b-4b4c-4609-8ccd-0e64e7e54255",
             "area": "Automotiva",
-            "empresa": "FCA Fiat Chrysler",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
+            "empresa": "Kawasaki Motores do Brasil Ltda",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel": "Senai/SC - Direção Regional"
         },
         {
             "id": "d671bf27-1e07-4a04-a4b8-77b48249b225",
             "area": "Automotiva",
-            "empresa": "General Motors",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
+            "empresa": "MWM Motores e Geradores",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel": "Senai/SC - Direção Regional"
         },
         {
             "id": "74edb665-6035-4d75-a4c6-b9780ab2bf81",
             "area": "Automotiva",
-            "empresa": "Peugeot",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "a3cf5746-3d0e-430b-b5a4-94d304a69449",
-            "area": "Automotiva",
-            "empresa": "Renaut",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "7142ea4e-9667-46e5-9f5b-30967055f5d7",
-            "area": "Automotiva",
-            "empresa": "Volkswagen",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "fa04d6cf-839a-4eea-a891-35d5d987dd5a",
-            "area": "Automotiva",
-            "empresa": "Toyota",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "25e982cb-7cc4-428b-803d-9f1ea43c71d3",
-            "area": "Automotiva",
-            "empresa": "Yamaha",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "06e52490-1f77-447d-bb85-5c71a2ff6ee4",
-            "area": "Automotiva",
-            "empresa": "Ford",
-            "icon_empresa": "",
-            "escola_responsavel": "Firjan Senai Jacarepaguá"
-        },
-        {
-            "id": "d0295633-845a-4d7f-aa55-b518d76c0efd",
-            "area": "Automotiva",
-            "empresa": "Jaguar",
-            "icon_empresa": "https://yt3.googleusercontent.com/MbWj7dKfij6MHDtk8Z5lm4qIKaK8T8TO5HghNxmd_RlERW9bGskvH8Va9r47SKwTHHz7mZS2=s176-c-k-c0x00ffffff-no-rj",
-            "escola_responsavel": "Firjan Senai Institutos de Inovação"
+            "empresa": "Nissan do Brasil Automóveis Ltda",
+            "icon_empresa": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEhAQEA8QDw8ODxIRFRUREBUVEA8QFRYXFxcVFhcaHTQgGxolGxgVIj0iJTUvLjIuFx82ODMsNygtLi0BCgoKDg0OGhAQGi8lHyUtLS4tLS0tLS0tLS0tLS0tLS0tLS0wLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tL//AABEIAMgAyAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwcEAv/EAEkQAAEDAgMFAwYHDgUFAAAAAAEAAgMEEQUGEgcTITFRQWFxFCIygZGxI0JSYnKhshUWFyQ1Q1VzdIKSk9HTMzSz0vBTVKLB4f/EABsBAQADAQEBAQAAAAAAAAAAAAABAgUDBAYH/8QANBEBAAIBAwMDAQYFBAMBAAAAAAECAwQFERIhMRNBUbEVIjJhcYEUkaHR8DRDU+E1QlIz/9oADAMBAAIRAxEAPwCjLg/SxAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBRyCcn6ik7CHcQnllE/qwiIEBAQEBAQEBAQEBAQEBAQEBBlQePCRwfAqqsdpp4Hy8bEgWY097jwCtFeXkz6zDg73lesK2SSusampbH82Juo2+k61vYVfoY2bfojtSvKx02zDDIx8IZZe98un7ICnoh4J3jVWn7rd95GBct0y/wC1SX+2nTCs7hr595/l/wBNVRsywqQfB7yPvjmJ+1dT0Jjd9VTyr2KbI3i5pqoP6Nmbb/zb/RVmj34d+9slVFxrLtZRG1RA9gvYO9KM+Dhw9qpNWzg12HP+CyKUPYICAgICAgICAgICAgICAoO0Q+4o3PcGtaXOcQAGi7nE9gHVTEKWvFI5t4dTyhsxADZq/ieYhB4D6bhz8B7SukU+XzWt3m0zNMPj5TOOZ+oMPbuKdrZnsFgyGzYo7dhcBYeAupm0Q8mn2vPqZ679o+Zc+xfaLiVQSGyinYfiwix/jPnX8CqTduYdn0+P8UcyrFTVyym8kskh6veXH61XmWlTBSkfdhoR0itfhup6mSM3jkfGerHFp+pOXO2ClvZZMJ2gYlTW+H37B8WYa7/vel9atFmfn2jT5I7Rw6DgO0ahrRuapgp3vGm0lnQPv2ajy/e9qvFmHqdpz4PvY55h4c27Mo5Q6agtG+191f4N/wBA/FP1eCia/Dtot5vj+5m7/m5PU0z4nOjkY5j2Gxa4Wc0rnx8vp8WSmSvNZ7NSOncQ8iAgICAgICAgICAg+4o3Pc1rWlznENAAuXE8AB3pEKXtFI6p8O15KyjDhcRqqst8o0FznOtpp2cy0HrbmfUO/rEcPkNfr76u/p4/H1UvPG0CWsLoKZzoqXkSOEk47+je729FW1ufDV2/aa4o68vefooy5t3iIgQ8MKeQQEBQd5ERMc9lxyXnuegLYpS6akvYtJu6IdYz0+by8F0rfjyx9w2qmeJtTtb6uh5qy3TYzTtqadzN9ovHIOTx8h/de/e0+sG0x1MLSazJo8nRfx7w4jVU74nvjkaWPjcWuaeYIXKYfZYcsZK8w0o6e4gICAgICAgICAoI5kUnPs6psjyuLeXzN48Wwg9gHB0nvA8D3LpSPd8vvOtmZ9Gv7ofabm41cppYX/i0LrOIPCaQdv0QeXt6KL257PXtG3xjr6l/M/0UNUbogICAgICAgIfkuOzvNrqCURyOJpJnWcD+aceUg7uvd4K9bMfdNvjNTrr+KFu2sZZbNH5fCLyRNG9t+ch+V4t91+gVrRyy9n1k47+lfw5AuT6wQEBAQEBAQEBAREzxHMpbLWBTV8zIY2u0lw1vA82Nna4nle11NY5ePWa2mDHzz3dd2hYs3DaFsEHmPlaIIwObIwLOcPAcPFwXS09MPmNtwTqdT1X8R3lwxcn2cceIESICAgICAgIChHtyKU+ztWyrGxV0rqWWzn0w0ceOuB19N/Di3wA6rrTvD43d9NOHN118S5pnHLkmH1EjCx24LiYn281zDyF/lDkfBc7R3fQ6DXUz445n70IBQ0ImJESICAgICAhLKg557JrAsxvo2lrKaklJeXa54dcguANIdqHDhy7yr1twz9VoPXtzNpj9JWCPapXtFmw0bR0EUgH21breK2xY57zaVezNmSoxF7JJ9AMbNLWxghoubk2JPHl7AqWty0NFoq6WJivuhVV7YjgQ8icn6Ckj82UIhhESyiZ+ZFB2jwwpGVAKRKZcx6fD5d9BoLiwsIeCWlpseIBHQJE8PJq9HTU06bLM/apiB4GKkI743/71frZsbFjj/wBpQmN5pkrGFklNRsJIOuKEtkFjfg7UVE25e3S7f6Furqmf3V9VaECAgICAgKDw9eF0m/mgh1ad/NHFe19Otwbe3bzUxHMuGozelim/wuOadm01HFv4ZTUtZxkAj0uY23pAXNx1V5qydHvNMuToyRwpVFBvJI4723kjWXte2ogXVOGxe/TWbJnOeXBhs7IN7vtcLZdWjTa7nNta5+SrXrw8e363+KrMzHHDdhWVd/QVFfvi3yZzm7vRfXpDT6V+HpdOxIrzHKuXXzTUxg6fPuicDwmWtmjp4QNchPEmzWgC5ce5ViOXq1Oprp8c3ldZdmtOwlsmLwMe3m0xtBB9cq6dEMf7by271xdv8/J8nZ1Sfpqn/ls/up0QfbOb/h+v9lCrIRHJIwODxG9zQ4cnhptq9a5y3cd+qsWldsN2cF0Mc9VWxUe9Ac1r2AmxFxcl7eNuxX6GNl3ma5Jrjp1cN/4OqT9NU/8ALZ/eU9Dn9s55/wBr6/2VrNeARULo2xVcdWJGuJLGgaLEcODz1+pVtXhpaHV21ETNqdKBVYe6XQcG2YS1FM2d04ilkYXsidHfhzbqdq4X4dnC6v0sHNvVceWaRXmPlQp4XRucx7S17HFrgebXDgQqT2bmO9bx1R4S+UMB+6FQKcybq7HO1adXo27LhTWOXk1+q/hsfqRHKSznkebDQ2QP39O7gZAzSWP6OFzYcrH/AOXm1eHn0O611M8WjiURlfB/LqqGl3m73uvztOrTpY53K4+SorD163UTp8M5OOeGrH8N8kqJqfXr3L9Oq1tXAHkluy+lzevijJxxyjlD0CAgICAglMrf52i/bKf/AFGqaeXi3CONNb9HR8zZulw7FHA3fSyQxbyPpwI1s+d7/d0tPDB0ugjUaWJj8Uc8PFj2UY3yU+I4daSmkmje9jPzfni72jp1b2eHKJjl00+vmtJwZ/MeJR+2b/OxfsjP9SVMj0bD/wDnb9Xryt+QcR/WSfYiSPDjqv8AyVf8+VPyjjnkFVHUadbWgtc0cyxwsbd/I+pUrbu2Nbpv4jDNPdcqzE8s1D3zSQz7yVxe7/FF3O5mwdbmunMMTHh1+KIpWY4bcKw/LldIKaBk7ZpA7SdUo9EEnmSL2B5qOIlGXNrsFeq8xxCgZgww0lRNTk6ty8tB6tIBB8bEKkxw39Lm9fDFuPK9DNmE10EDMShl31O3SCzVpJIAJBa4cDpHAq/VVhTotTgy2thmOJad9lb/AKM/tm/3J91bp3CPeP6I7P8AlimpWU1VSOd5PVDg1xJ03aHNIvxsRfmovXh69r1mTNa1L+YadnGWfL6nU9t6anIe+/J7vis9fEnuHeopC+7a30MfTHmV2zC3GnV8U9PSuNNSnQ1u9iAmYbayRq+NwtflYK8+WLp50kaea3t96fyRO1vLdtOIRsIDw1s7fku5Nebfwnvt1UXjmHs2XW/7Nv2QuyP8oN/Uye4KKPZvX+nmf0+qcoc5CGsraKttJRS1U7AXi4h1PPA3+J7lbq7s6dum2npnxfi4ejCsmuocVpJobyUUplLXA33V4ZCGuPTof+FFeEZ9wjPo7Uv2tHH1UbP35QrP1x9wVLtvbP8AS0QCq0BAQEBBlCe71YXV7iaGbTq3E0cum9tWhwda/ZySs8S4anDOXHNPlIZux77oVBqN1ursazTr1ejfjewU3nmXHQ6T+Gx9HPL1ZNzhPhjjYb6B/F0RdYauxzTY2Pv9imLcOOu23HqY554t8tOdMyfdOds+53OmFsenXrvZznXvYfK+pRa3K236KdLWa888t2F5q3FBUUG51eUOc7eby2jUGj0dPH0evap6uyuXb5vqYz9Xj2RmXsSZSTxzvhbUNYHXjcQGu1NI7QeV78lEW4enV6ec2Lorbj81y/CPS/oan/mN/tK/X+TI+xcv/L9f7vpm06KO7ocLgiksQHCQcL+EYPquo6+EfYl5/Hk5hQsQrH1Esk0h1SSuLnHvP/pUmeW5iw1xUilV0oc/00UccZwmB5jY1pcXtu8gAav8LtV+uPhj5Noy2tNvV8/58t/4SKX9DU/8xv8AaU9cfDn9i5ffL9f7q9nDNsuJOZqY2GKEHRG03AJ5knt5dFSbctHQ7fXS88TzM+72UWdzTUXkdLAYJHcXTiW7y4+k4DSLHsHHgFMW4hwvtfq6j1MluY+OER99OI/97U/znf1Tql6fs3Te1ITeC5/mjhmp6yN1fHOLfCSkOaCLOFyDw5eHFIv8vLm2es3i+KemYRGVMeGH1PlIiMrQ17Q0yWIDu3Vp4+xRWXr1mjnUYujnhH4tW+UTTT6dG/mfJpvfTrcTa/bzUTPd30+H0sMY5nnhacobQp6CMwvj8piHoAyaXRdwNjdvcrdbN1uz01Fuuk8T7q1j2JeV1E1Ro3e+fq06tWngBzsOirM8tHS4fRxRjmeeEej0CAgICAgIJvAsuPrGlzKmkiLX6dE82iQ8AdQbpPDjz7irRXln6rXehfpmsz+iwR7K69wu2ajI7pZCPsKeh4rb7jrPekq9mbLVRhr2Rz6DvGamujJLTY2I4gceXtCravDQ0WtrqqzavbhDKr29+GFIICAgICAgICAglcuYDPiEu5g0BwYXkvJDQ0EDjYHqFMV6nk1erppqddlmfsrxBvEy0gHfI8D7Ct0MyN9xzPasoPG8rSUbC99TRyEEDRFNqlNzbg3SFE14ezTbh61uOmY/ZAKrS4EBAQEBAQEBEcRx3S2XMdmoJmTRucGhw1sB82Rna0jrzUxbh49Zo8eakxMOu7QcJbiVC2eDz3xNE8ZA4vjI85o8Rx8WhdLRy+X23POl1PTfxPaXDFyns+0jiYESICAgICAgICAg7XsqwQUlK6ql819SNfHhogbxbfx4u9Y6LrWOIfG7vqZz5ox18Q5nnHMcmIVEjy924a4iJl/NawcjbqeZXObcy+g2/RUw445jv7oBRy0YrwIkQEBAQEBAQEBB1TZHmgD8Qmd2l0JPbe5dH7yPX3LpS3s+Y3rQ9/Wp+6H2m5QNJIaqFv4tM67gBwhkPYfmk8vG3RRevu9W0bhGWvp3/FH9VDVG73FBIpBAQEBAQFEi47O8our5RLK0+SQuu6/513Ywd3Xu8VeteWNuu4Rgr6dZ+9K37WMzthj8ghPwkrRvbfm4vk+Lvd4hXtLL2fRzkv61/Dj65PrfAgICAgICAgICAgIPuKRzCHNJa5pDgQbFpHEEJHyralbVms+JdryRm+HE4jS1QZ5RoLXNdbTUMtxIHXqPWO7rE9T47XaDJpMnqY/H0UzPGz+WjLpqYOlpeZA4yQDv6t7/AG9VW1Wtt+7Vy/cydp+qiKjcieY7CJEBAQEBCVyyVkSavLZZQ6GkvfURZ8o6MHT53vV615Yuv3WuCJrj72+joeasy02DQNp6drN9otHEOTB8t/ba9+8n1kWmelh6PR5NZk67+PeXEKupfK98kji+SRxc5x5klcueX2WLHXFSKV8NKcOggICAgICAgICAgICEPuKRzCHNcWuaQQQbOaR2gopekWjiXUsn7TgQ2HEOB5CcDgf1jRy8R7BzXSL8vmtds1onrw/yTeOZCw/ERv6d7YXyAkSQ2dFIepbyPqspmsS8en3PUaaem/ePzc+xfZziVPctiFQwfGhNz/AfOv4XVJo3cG86fJ+KeFYqqOaI2likjPR7HNP1qsxLRpqMd/EvOnd066+0t1NSySm0cb5D0YwuP1J3Utmx182WXCdnuJVFiYdww/GmOm37vpX9StFJlnZt409PE8y6DgOzmiohvql4qHsGomSzYWW7dJNv4leKxDD1O7ZtRPTSOIeDNu02OIOhoLSP5GW3wbOzzB8Y/V4pNnbRbPe89Wbx8OT1VQ+V7pJHue95u5zjdziuUvqMeOuKvTWOIakdBAQEBAQEBAQEBAQEBAQ5ZQ8JHCMcqqN2qnnfFc3IBux3i08CnMvLn0eHP+OF6wra3M2wqaZsnzonaTb6JuD7QunWxs+w1nvjtwsdLtQwyQefvYvpxX+ySrdcM+2zaqvju3/fzgXPfMv+yy3+wo5hT7P13/zP8/8AtqqNpuFxjzDLLbsZCR9qydULRs+rt3mP6q7im1x5BFNTBvzpnXP8Df6qJvEPfh2H3vZRsazFWVpvUTveL3DB5sY8Gjh61SbTLZ0+hw4PwVRKiXs8Cg5FIICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/9k=",
+            "escola_responsavel": "Senai/SC - Direção Regional"
         }
 
     ],
@@ -315,99 +168,64 @@
         {
             "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
             "area": "Têxtil e Vestuário",
-            "empresa":"Akik Lingerie LTDA",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Nova Friburgo"
-        },
-        {
-            "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
-            "area": "Têxtil e Vestuário",
-            "empresa":"De Chelles Indústria de Confecções LTDA",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Nova Friburgo"
-        },
-        {
-            "id": "adbdf9cb-3f59-4673-847b-9e19c1d6eb59",
-            "area": "Têxtil e Vestuário",
-            "empresa":"Jescri de Friburgo Moda Íntima LTDA",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Nova Friburgo"
+            "empresa":"Lectra Brasil Ltda",
+            "icon_empresa":"/icons_parceiros/icon_lectra.png",
+            "escola_responsavel":"Senai/SC - Blumenau"
         }
     ],
     "automacao": [
         {
             "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
             "area": "Automação",
-            "empresa":"Siemens",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
+            "empresa":"Inmes Industrial Ltda",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel":"Senai/SC - Braço do Norte"
         },
         {
-            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6k",
             "area": "Automação",
-            "empresa":"Altus",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
+            "empresa":"Intelbras S.A. Ind. Telec. Elet. Brasil",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel":"Senai/SC - São José"
         },
         {
-            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6u",
             "area": "Automação",
-            "empresa":"Festo",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
+            "empresa":"Festo Brasil Ltda",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel":"Senai/SC - Direção Regional"
         },
         {
-            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6c",
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6h",
             "area": "Automação",
-            "empresa":"Ska",
+            "empresa":"Finder Componentes Ltda",
+            "icon_empresa": "/icons_parceiros/icon_finder.png",
+            "escola_responsavel":"Senai/SC - Direção Regional"
+        },
+        {
+            "id": "b8978594-e7a5-4f83-b808-a4e0844e4b6r",
+            "area": "Automação",
+            "empresa":"Micromecânica Ind. Com. Imp. Exp Ltda",
             "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Benfica"
+            "escola_responsavel":"Senai/SC - Joinville Norte I"
         }
     ],
-    "eletronica": [
+    "eletrica": [
         {
             "id": "e38aad46-e486-4f6d-8220-92f2ff7ad68c",
-            "area": "Eletrônica",
-            "empresa":"New End Tecnologia em Inspeções",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
-        },
-        {
-            "id": "07d3af91-910b-45fe-b0ef-7a69a30b64ac",
-            "area": "Eletrônica",
-            "empresa":"Olympus Arotec",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
-        },
-        {
-            "id": "72ab8f94-724d-4541-b243-9861ed29c37e",
-            "area": "Eletrônica",
-            "empresa":"Rothemberg TC",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
-        },
-        {
-            "id": "98f8f1cd-af0c-4b42-ab0a-7fc75b218cea",
-            "area": "Eletrônica",
-            "empresa":"Eddyfi Tecnologies",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
-        },
-        {
-            "id": "98f8f1cd-af0c-4b42-ab0a-7fc75b218cea",
-            "area": "Eletrônica",
-            "empresa":"Magnaflux",
-            "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+            "area": "Eletrica",
+            "empresa":"Eplan Brasil Ltda",
+            "icon_empresa": "data:image/png;base64,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",
+            "escola_responsavel":"Senai/SC - Direção Regional"
         }
     ],
     "quimica": [
         {
             "id": "3656a292-1eff-4a96-9cc1-9419ff180608",
             "area": "Química",
-            "empresa":"Jotun Brasil LTDA",
+            "empresa":"",
             "icon_empresa": "",
-            "escola_responsavel":"Firjan Senai Vila Isabel - CEQUAL"
+            "escola_responsavel":""
         }
     ]
 }

@@ -43,28 +43,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (prefers-reduced-motion: reduce){
-  html {
-    scroll-behavior: auto;
-  }
-}
-
-@media (max-width: 1080px){
-  html {
-    font-size: 93.75%;
-  }
-}
-
-@media (max-width: 720px){
-  html {
-    font-size: 87.5%
-  }
-}
-
 @media (max-width: 450px){
-  html {
-    font: 350 1rem 'Museo Sans';
-  }
   .headerContent{
     display: none;
   }

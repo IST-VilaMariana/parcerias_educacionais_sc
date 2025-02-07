@@ -4,10 +4,7 @@
 .card {
     display: flex;
     gap: 20px;
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     align-items: center;
-    /* text-align: end; */
     width: 15.625rem;
     height: 5.375rem;
     padding: 1.725rem;
@@ -57,9 +54,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 75rem;
+    width: auto;
     height: auto;
     background: var(--brand-300);
+    border-radius: 1rem 1rem 0 0;
 }
 
 .headermodal span {
@@ -73,16 +71,17 @@
 .iconClose {
     width: 2rem;
     height: 2rem;
+    background: var(--brand-300);
 }
 @media(max-width: 1000px){
     .renderContent{
         margin-top: 1.9rem;
     }
     .headermodal {
-        width: 43.75rem;
+        width: auto;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 500px){
     .renderContent{
         align-items: flex-start;
         width: auto;
@@ -91,7 +90,7 @@
     }
     .card {
         text-align: center;
-        margin: 2rem;
+        margin: 0.5rem;
     }
     .card p {
         font-size: 16px;

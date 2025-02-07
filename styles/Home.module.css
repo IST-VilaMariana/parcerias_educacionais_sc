@@ -29,6 +29,15 @@
   margin-left: 2.5rem;
   padding: auto;
 }
+
+.sectionContainer li p {
+  color: var(--brand-800);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.8rem;
+
+}
 .title {
   display: flex;
   align-items: center;
@@ -44,10 +53,10 @@
   line-height: normal;
 }
   
-@media(max-width: 450px){
+@media(max-width: 500px){
   .sectionContainer p {    
-    text-align: justify;
     padding: 0.2rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }  
 }

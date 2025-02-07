@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className={museoSans.className}>
       <Header />
       <Component {...pageProps} />
-      <Footer />
+      {/*<Footer />*/}
     </div>
   )
 }

@@ -1,7 +1,7 @@
 ﻿import * as Dialog from "@radix-ui/react-dialog";
+import icon_close from "../../../public/icons/close_button.svg";
 import Image from "next/image";
 import { useState } from "react";
-import { AiFillCloseCircle } from "react-icons/ai";
 import { ContentModal } from "../ContentModal";
 import style from "./styles.module.css";
 
@@ -21,18 +21,18 @@ export function ModalRadixUI({title, src, area }:ModalProps){
                 <Image src={src} alt='image' width={40} height={40}/>
                 <p>{title}</p>
             </Dialog.Trigger>
-            <Dialog.Portal className={style.container_portal}>
+            <Dialog.Portal>
                 <Dialog.Overlay className={style.modalStyle}>
                     <Dialog.Content className={style.renderContent}>                    
                         <div className={style.container}>
                             <div className={style.headermodal}>
                                 <span>{title}</span>
-                                <Dialog.Close onClick={() => setIsOpen(false)}>
-                                    <AiFillCloseCircle className={style.iconClose} />
+                                <Dialog.Close onClick={() => setIsOpen(false)} style={{ background: 'transparent', border: 'none'}}>
+                                    <Image src={icon_close} className={style.iconClose} alt=''/>
                                 </Dialog.Close>
                             </div>
+                            <ContentModal key={area} area={area}/>                        
                         </div>                    
-                        <ContentModal key={area} area={area}/>                        
                     </Dialog.Content>
                 </Dialog.Overlay>
             </Dialog.Portal>

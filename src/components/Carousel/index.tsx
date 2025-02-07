@@ -32,7 +32,7 @@ const questionsAnswers = [
   {
     question: 'Capilaridade da Rede SENAI SC',
     answer: 'Uma parceria consolidada com uma Unidade Operacional do SENAI SC posibilita sua disseminação pela rede no estado, trazendo mais vantagens para as empresas parceiras.'
-  }
+  }    
 ];
 
 export function Carousel() {

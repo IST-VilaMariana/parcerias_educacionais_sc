@@ -2,7 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   async headers() {
     return [
       {
@@ -14,7 +13,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "style-src 'unsafe-inline' 'self'; frame-ancestors 'self' https://www.youtube.com https://forms.office.com"
+            value: "style-src 'unsafe-inline' 'self'; frame-ancestors 'self' https://www.youtube.com https://docs.google.com/"
           },
           {
             key: 'X-Content-Type-Options',

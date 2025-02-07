@@ -65,7 +65,10 @@
 }
 .slider_indicator_active {
     background: var(--brand-700);
+<<<<<<< HEAD
     transition: transform 0.3s ease-in-out;
+=======
+>>>>>>> 2e49d788c641f61488d2d8deb1ff0cd7e133a9df
 }
 @media(max-width: 500px){
     .slider {        
@@ -74,7 +77,10 @@
     }
     .carousel {
         overflow-x: scroll;
+<<<<<<< HEAD
         scroll-behavior: smooth;
+=======
+>>>>>>> 2e49d788c641f61488d2d8deb1ff0cd7e133a9df
     }
     .item {
         min-width: 24rem;
