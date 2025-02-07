@@ -37,45 +37,39 @@ const questionsAnswers = [
 
 export function Carousel() {
   const carousel = useRef(null);
-  const [widthSlider, setWidthSlider] = useState(0);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    if (carousel.current) {
-      setWidthSlider(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    }
-  }, []);
-
-  useEffect(() => {
     const boxSlider = carousel.current;
-
     if (!boxSlider) return;
 
     const handleScroll = () => {
       const scrollLeft = boxSlider.scrollLeft;
       const width = boxSlider.clientWidth;
       const index = Math.round(scrollLeft / width);
-      const maxIndex = questionsAnswers.length - 1;
-      setActiveIndex(Math.min(index, maxIndex));
+      setActiveIndex(index);
     };
 
     boxSlider.addEventListener('scroll', handleScroll);
-
-    return () => {
-      boxSlider.removeEventListener('scroll', handleScroll);
-    };
+    return () => boxSlider.removeEventListener('scroll', handleScroll);
   }, []);
+
+  function smoothScrollTo(offset) {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    boxSlider.scrollTo({ left: offset, behavior: 'smooth' });
+  }
 
   function nextSlide() {
     const boxSlider = carousel.current;
     if (!boxSlider) return;
 
     const width = boxSlider.clientWidth;
-    const maxScroll = boxSlider.scrollWidth - boxSlider.clientWidth;
+    const maxScroll = boxSlider.scrollWidth - width;
+    const newScrollLeft = Math.min(boxSlider.scrollLeft + width, maxScroll);
 
-    if (boxSlider.scrollLeft + width <= maxScroll) {
-      boxSlider.scrollLeft = boxSlider.scrollLeft + width;
-    }
+    smoothScrollTo(newScrollLeft);
   }
 
   function prevSlide() {
@@ -83,10 +77,9 @@ export function Carousel() {
     if (!boxSlider) return;
 
     const width = boxSlider.clientWidth;
+    const newScrollLeft = Math.max(boxSlider.scrollLeft - width, 0);
 
-    if (boxSlider.scrollLeft - width >= 0) {
-      boxSlider.scrollLeft = boxSlider.scrollLeft - width;
-    }
+    smoothScrollTo(newScrollLeft);
   }
 
   function goToSlide(index) {
@@ -94,11 +87,7 @@ export function Carousel() {
     if (!boxSlider) return;
 
     const width = boxSlider.clientWidth;
-    const maxIndex = questionsAnswers.length - 1;
-
-    if (index >= 0 && index <= maxIndex) {
-      boxSlider.scrollLeft = width * index;
-    }
+    smoothScrollTo(width * index);
   }
 
   return (
@@ -110,34 +99,25 @@ export function Carousel() {
           className={styles.carousel}
           whileTap={{ cursor: 'grabbing' }}
         >
-          <motion.div
-            className={styles.inner}
-            drag='x'
-            dragConstraints={{ right: 0, left: -widthSlider }}
-            initial={{ x: 100 }}
-            animate={{ x: 0 }}
-            transition={{ type: 'spring', bounce: 0.2, delay: 0.7, duration: 1 }}
-          >
-            {questionsAnswers.map((item, index) => (
-              <motion.div
-                key={item.question}
-                className={styles.item}
-              >
+          <div className={styles.inner}>
+            {questionsAnswers.map((item) => (
+              <div key={item.question} className={styles.item}>
                 <div className={styles.bloco}>
                   <span>{item.question}</span>
                   <p>{item.answer}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </motion.div>
         <ButtonPressRight nextSlide={nextSlide} />
       </div>
+      
       <div className={styles.container_slider_indicator}>
-        {questionsAnswers.map((item, index) => (
+        {questionsAnswers.map((_, index) => (
           <span
-            key={item.answer}
-            className={index === activeIndex ? `${styles.slider_indicator} ${styles.slider_indicator_active}` : `${styles.slider_indicator}`}
+            key={index}
+            className={index === activeIndex ? `${styles.slider_indicator} ${styles.slider_indicator_active}` : styles.slider_indicator}
             onClick={() => goToSlide(index)}
           ></span>
         ))}

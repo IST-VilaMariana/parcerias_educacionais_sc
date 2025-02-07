@@ -51,8 +51,13 @@
     height: 4rem;
     position: absolute;
 }
-.container_slider_indicator {
+/* .container_slider_indicator {
     display: none;
+} */
+
+.container_slider_indicator {
+    display: flex;
+    justify-content: center;
 }
 .slider_indicator {
     display: inline-block;
@@ -71,9 +76,7 @@
         /*min-height: auto;*/ 
         gap: 0.2rem
     }
-    /* .carousel {
-        overflow-x: scroll;
-    } */
+    
 
     .carousel {
         cursor: grab;
@@ -85,11 +88,14 @@
     }
     .item {
         min-width: 24rem;
+        flex-shrink: 0; /* Impede que os itens diminuam */
     }
     .item p { margin-top: 1rem 
     }
-    .container_slider_indicator {
-        display: flex;
-        justify-content: center;
+
+    .carousel {
+        overflow-x: auto; /* Permite scroll apenas no mobile */
+        
     }
+ 
 }
