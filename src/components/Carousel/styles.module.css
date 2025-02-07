@@ -51,8 +51,13 @@
     height: 4rem;
     position: absolute;
 }
-.container_slider_indicator {
+/* .container_slider_indicator {
     display: none;
+} */
+
+.container_slider_indicator {
+    display: flex;
+    justify-content: center;
 }
 .slider_indicator {
     display: inline-block;
@@ -65,10 +70,6 @@
 }
 .slider_indicator_active {
     background: var(--brand-700);
-<<<<<<< HEAD
-    transition: transform 0.3s ease-in-out;
-=======
->>>>>>> 2e49d788c641f61488d2d8deb1ff0cd7e133a9df
 }
 @media(max-width: 500px){
     .slider {        
@@ -76,19 +77,23 @@
         gap: 0.2rem
     }
     .carousel {
-        overflow-x: scroll;
-<<<<<<< HEAD
-        scroll-behavior: smooth;
-=======
->>>>>>> 2e49d788c641f61488d2d8deb1ff0cd7e133a9df
+        cursor: grab;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        scroll-behavior: smooth; /* Adiciona transição suave */
     }
     .item {
         min-width: 24rem;
+        flex-shrink: 0; /* Impede que os itens diminuam */
     }
     .item p { margin-top: 1rem 
     }
-    .container_slider_indicator {
-        display: flex;
-        justify-content: center;
+
+    .carousel {
+        overflow-x: auto; /* Permite scroll apenas no mobile */
+        
     }
+ 
 }

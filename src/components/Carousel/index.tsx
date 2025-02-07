@@ -37,139 +37,91 @@ const questionsAnswers = [
 
 export function Carousel() {
   const carousel = useRef(null);
-  const [widthSlider, setWidthSlider] = useState(0);
-  const [positionSlider, setPositionSlider] = useState(false)
-
   const [activeIndex, setActiveIndex] = useState(0);
 
-  let boxSlider = carousel.current;
-
-  function nextSlide() {
-    // let width = boxSlider.clientWidth;
-    // boxSlider.scrollLeft = boxSlider.scrollLeft + width;
-    // console.log(`in nextSlide ${width}`);
-
-    if (!boxSlider) return;
-
-    let width = boxSlider.clientWidth;
-    let newScrollLeft = boxSlider.scrollLeft + width;
-
-    boxSlider.scrollTo({ left: newScrollLeft, behavior: "smooth" });
-
-    // Atualiza o índice do bullet
-    setActiveIndex((prev) => Math.min(prev + 1, questionsAnswers.length - 1));
-  }
-
-  function prevSlide() {
-    // let width = boxSlider.clientWidth;
-    // boxSlider.scrollLeft = boxSlider.scrollLeft - width;
-    // console.log(`in prevSlide ${width}`)
-
-    if (!boxSlider) return;
-
-    let width = boxSlider.clientWidth;
-    let newScrollLeft = boxSlider.scrollLeft - width;
-
-    boxSlider.scrollTo({ left: newScrollLeft, behavior: "smooth" });
-
-    // Atualiza o índice do bullet
-    setActiveIndex((prev) => Math.max(prev - 1, 0));
-  }
-
-  function handlePagination() {
-    setPositionSlider(true)
-  }
-
   useEffect(() => {
-
-    if (carousel.current) {
-      setWidthSlider(carousel.current.scrollWidth - carousel.current.clientWidth);
-    }
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
 
     const handleScroll = () => {
-      if (!carousel.current) return;
-
-      const scrollLeft = carousel.current.scrollLeft;
-      const totalWidth = carousel.current.scrollWidth - carousel.current.clientWidth;
-
-      // Evita erro de divisão por zero
-      if (totalWidth === 0) return;
-
-      // Calcula o índice ativo
-      const index = Math.round((scrollLeft / totalWidth) * (questionsAnswers.length - 1));
+      const scrollLeft = boxSlider.scrollLeft;
+      const width = boxSlider.clientWidth;
+      const index = Math.round(scrollLeft / width);
       setActiveIndex(index);
     };
 
-    const carouselRef = carousel.current;
-    if (carouselRef) {
-      carouselRef.addEventListener("scroll", handleScroll);
-    }
-
-    return () => {
-      if (carouselRef) {
-        carouselRef.removeEventListener("scroll", handleScroll);
-      }
-    };
+    boxSlider.addEventListener('scroll', handleScroll);
+    return () => boxSlider.removeEventListener('scroll', handleScroll);
   }, []);
+
+  function smoothScrollTo(offset) {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    boxSlider.scrollTo({ left: offset, behavior: 'smooth' });
+  }
+
+  function nextSlide() {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    const width = boxSlider.clientWidth;
+    const maxScroll = boxSlider.scrollWidth - width;
+    const newScrollLeft = Math.min(boxSlider.scrollLeft + width, maxScroll);
+
+    smoothScrollTo(newScrollLeft);
+  }
+
+  function prevSlide() {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    const width = boxSlider.clientWidth;
+    const newScrollLeft = Math.max(boxSlider.scrollLeft - width, 0);
+
+    smoothScrollTo(newScrollLeft);
+  }
+
+  function goToSlide(index) {
+    const boxSlider = carousel.current;
+    if (!boxSlider) return;
+
+    const width = boxSlider.clientWidth;
+    smoothScrollTo(width * index);
+  }
 
   return (
     <div className={styles.container_slider}>
       <div className={styles.slider}>
         <ButtonPressLefth prevSlide={prevSlide} />
-
         <motion.div
           ref={carousel}
           className={styles.carousel}
           whileTap={{ cursor: 'grabbing' }}
         >
-
-
-          <motion.div
-            className={styles.inner}
-            drag="x"
-            dragConstraints={{ right: 0, left: -widthSlider }}
-            initial={{ x: 100 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring", bounce: 0.2, delay: 0.7, duration: 1 }}
-          >
-            {questionsAnswers.map(item => (
-              <motion.div key={item.question} className={styles.item}>
+          <div className={styles.inner}>
+            {questionsAnswers.map((item) => (
+              <div key={item.question} className={styles.item}>
                 <div className={styles.bloco}>
                   <span>{item.question}</span>
                   <p>{item.answer}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </motion.div>
-
         <ButtonPressRight nextSlide={nextSlide} />
       </div>
-
+      
       <div className={styles.container_slider_indicator}>
-        {questionsAnswers.map((_, index) => {
-          const isActive = Math.round(activeIndex) === index;
-
-          return (
-            <span
-              key={index}
-              onClick={() => {
-                if (carousel.current) {
-                  const width = carousel.current.clientWidth;
-                  carousel.current.scrollTo({ left: index * width, behavior: "smooth" });
-                  setActiveIndex(index);
-                }
-              }}
-              className={`${styles.slider_indicator} ${isActive ? styles.slider_indicator_active : ''}`}
-              style={{
-                width: isActive ? "1rem" : "0.5rem",
-                backgroundColor: isActive ? "var(--brand-700)" : "gray",
-                transition: "width 0.3s ease-in-out, background-color 0.3s ease-in-out"
-              }}
-            ></span>
-          );
-        })}
+        {questionsAnswers.map((_, index) => (
+          <span
+            key={index}
+            className={index === activeIndex ? `${styles.slider_indicator} ${styles.slider_indicator_active}` : styles.slider_indicator}
+            onClick={() => goToSlide(index)}
+          ></span>
+        ))}
       </div>
     </div>
-  )
+  );
 }
