@@ -14,12 +14,9 @@
     margin-bottom: 0.2rem;
 }
 
-/* .table_line_data {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1.2rem;
-} */
+.table_line_data {
+    display: inline;
+}
 
 .title_table{
     width: 100%;
